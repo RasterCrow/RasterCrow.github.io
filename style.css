@@ -1,0 +1,100 @@
+body, html {
+    /*
+    
+    */
+    font-weight: 600;
+    /*
+    scroll-behavior: smooth;
+    */
+    margin-bottom: 40px;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+	z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+.top-banner { 
+    margin-top:10px; 
+    margin-bottom: 50px;
+}
+.banner-text{
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 2px 3px #242323;
+    -webkit-text-stroke: 0.5px black;
+}
+.card-inner-text{
+    margin-top : 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 1px #242323;
+    -webkit-text-stroke: 0.5px black;
+}
+
+a , a:visited, a:link{
+    color : white;
+    text-decoration: none;
+}
+a:hover {
+    color : rgb(82, 153, 235);
+    text-decoration: none;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#carouselPortfolio img {
+    max-width: 98%;
+    max-height: 720px;
+    border-radius: 20px;
+    margin: auto
+  }
+
+#portfolioText{
+    margin-top: 35px;
+}
+.collapse {
+    margin-bottom: 20px;
+}
+.card {
+    -webkit-text-stroke: 0.5px black;
+    background-color:rgba(245, 245, 245, 0.2);
+}
+#radio-language {
+    margin :10px;
+    -webkit-text-stroke: 0.5px black;
+}
+#radio-language .btn{
+    background-color: rgba(245, 245, 245, 0.3);
+}
+#radio-language .btn.active{
+    background-color: rgb(82, 153, 235, 0.3);
+}
+
+#profileImage {
+    width: 100px;
+    max-width: 200px;
+    height : 100px;
+    max-height: 200px;
+    margin-right: 20px;
+}
+.link_icon{
+    width:20px;
+    height:20px;
+    margin-bottom: 3px;
+}
+#contactList{
+    margin-left:20px;
+    margin-top: -18px;
+}
