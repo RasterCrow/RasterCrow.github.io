@@ -10,7 +10,7 @@ var text ={
 		"blog":"Under Construction",
 		"info":"Hi, I'm Alex, better known as RasterCrow on the web. <br> I like to code, play games and watch movies. \n ", 
 		"portfolio":{
-			"summary":'Some of the projects I worked on in my free time. <br> You can find more of them on <a href="https://github.com/RasterCrow" target="_blank"><img class="link_icon" src="assets/github-icon.png" alt="github icon"> Github</a> or on my BLOG.',
+			"summary":'Some of the projects I worked on in my free time. <br> You can find more of them on <a href="https://github.com/RasterCrow" target="_blank"><img class="link_icon" src="assets/github-icon.png" alt="github icon"> Github</a> or on my Blog.',
 			"slide1":{
 				"title":"Alexa Skills",
 				"desc":"Skills I developed for Amazon Alexa devices.<br>Some are also available on the Google Assistant."
@@ -33,7 +33,7 @@ var text ={
 		"blog":"In costruzione",
 		"info":"Ciao, mi chiamo Alex, ma sul web sono RasterCrow. <br> Programmo, videogioco e guardo molti film. \n ",
 		"portfolio":{
-			"summary":'Alcuni dei progetti su cui ho lavorato nel tempo libero. <br> Puoi trovarne altri sul mio profilo <a href="https://github.com/RasterCrow" target="_blank"><img class="link_icon" src="assets/github-icon.png" alt="github icon"> Github</a> o sul BLOG.',
+			"summary":'Alcuni dei progetti su cui ho lavorato nel tempo libero. <br> Puoi trovarne altri sul mio profilo <a href="https://github.com/RasterCrow" target="_blank"><img class="link_icon" src="assets/github-icon.png" alt="github icon"> Github</a> o sul Blog.',
 			"slide1":{
 				"title":'Alexa Skills',
 				"desc":"Un paio di skill che ho sviluppato per i dispositivi Amazon Alexa.<br>Alcune disponibili anche su Google Assistant."
