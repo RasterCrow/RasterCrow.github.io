@@ -51,28 +51,6 @@ var text ={
 };
 
 $(document).ready(function() {
-	/*
-	$("#infobutton").click(function() {
-		$('html, body').animate({
-			scrollTop: $("#collapseInfo").offset().top
-		}, 500);
-	});
-	$("#portfoliobutton").click(function() {
-		$('html, body').animate({
-			scrollTop: $("#collapsePortfolio").offset().top
-		}, 500);
-	});
-	$("#contactsTitle").click(function() {
-		$('html, body').animate({
-			scrollTop: $("#collapseContacts").offset().top
-		}, 500);
-	});
-	$("#blogTitle").click(function() {
-		$('html, body').animate({
-			scrollTop: $("#collapseBlog").offset().top
-		}, 500);
-	});
-	*/
 
 	//usati per cambiare il colore ai link della navbar
 	$("#blogTitle").on("click", function() {
@@ -88,6 +66,7 @@ $(document).ready(function() {
 		$(this).toggleClass('button-clicked');
 	})
 
+	//scroll into the collapse clicked
 	$(document).on('shown.bs.collapse', function(event){
         //console.log( "in! print e: " +event.type);
         event.target.scrollIntoView({ behavior: 'smooth', block: 'center' })
