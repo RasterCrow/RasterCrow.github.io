@@ -25,6 +25,10 @@ video {
     -webkit-transform: translateZ(0); /* promotes to a layer */
 }
 
+.button-clicked:link{
+    color:rgb(82, 153, 235);
+}
+
 .top-banner { 
     margin-top:10px; 
     margin-bottom: 50px;

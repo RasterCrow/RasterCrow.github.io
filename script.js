@@ -51,13 +51,57 @@ var text ={
 };
 
 $(document).ready(function() {
-	translatePage("it");
+	/*
+	$("#infobutton").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#collapseInfo").offset().top
+		}, 500);
+	});
+	$("#portfoliobutton").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#collapsePortfolio").offset().top
+		}, 500);
+	});
+	$("#contactsTitle").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#collapseContacts").offset().top
+		}, 500);
+	});
+	$("#blogTitle").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#collapseBlog").offset().top
+		}, 500);
+	});
+	*/
 
+	//usati per cambiare il colore ai link della navbar
+	$("#blogTitle").on("click", function() {
+		$(this).toggleClass('button-clicked');
+	})
+	$("#contactsTitle").on("click", function() {
+		$(this).toggleClass('button-clicked');
+	})
+	$("#infoTitle").on("click", function() {
+		$(this).toggleClass('button-clicked');
+	})
+	$("#portfolioTitle").on("click", function() {
+		$(this).toggleClass('button-clicked');
+	})
+
+	$(document).on('shown.bs.collapse', function(event){
+        //console.log( "in! print e: " +event.type);
+        event.target.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    });
+	
+	//traduco inizialmente la pagina in italino
+	translatePage("it");
+	//usato per cambiare lingua tramite radio button
     $("input[type='radio']").click(function(){
 		var pageLanguage = $("input[name='language']:checked").val();
 		translatePage(pageLanguage);
 	});
 
+	//carico le varie traduzioni
 	function translatePage(language){
 		document.getElementById("infoText").innerHTML = text[language].info;
 		document.getElementById("portfolioText").innerHTML = text[language].portfolio.summary;
