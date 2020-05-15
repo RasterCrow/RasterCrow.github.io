@@ -3,9 +3,9 @@ body, html {
     
     */
     font-weight: 600;
-    /*
+    
     scroll-behavior: smooth;
-    */
+    
     margin-bottom: 40px;
 	background-image:url('assets/bg.gif');
     background-size: cover;
@@ -63,8 +63,10 @@ a:hover {
     max-width: 98%;
     max-height: 720px;
     border-radius: 20px;
-    margin: auto
+    margin: auto;
+    margin-top: 15px;
   }
+
 
 #portfolioText{
     margin-top: 35px;
