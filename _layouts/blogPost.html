@@ -1,0 +1,25 @@
+<div class="modal-body blogText">
+  <h1 class="titoloBlogPost">{{ page.title }}</h4>
+  <h5 class="dataBlogPost">{% assign m = page.date | date: "%-m" %}
+    {{ page.date | date: "%-d" }}
+    {% case m %}
+      {% when '1' %}Gennaio
+      {% when '2' %}Febbraio
+      {% when '3' %}Marzo
+      {% when '4' %}Aprile
+      {% when '5' %}Maggio
+      {% when '6' %}Giugno
+      {% when '7' %}Luglio
+      {% when '8' %}Agosto
+      {% when '9' %}Settembre
+      {% when '10' %}Ottobre
+      {% when '11' %}Novembre
+      {% when '12' %}Dicembre
+    {% endcase %}
+    {{ page.date | date: "%Y" }}
+  </h5>
+  <div class="contenutoBlogPost">
+    {{content}}
+  </div>
+</div>
+<button type="button" class="btn btn-default border-white" style="color: white;" data-dismiss="modal">Chiudi</button>
