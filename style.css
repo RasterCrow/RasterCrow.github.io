@@ -5,13 +5,13 @@ body, html {
     font-weight: 600;
     
     scroll-behavior: smooth;
-    
+        font-family: 'Cairo', sans-serif;
     margin-bottom: 40px;
 	/*background-image:url('assets/bg.gif');
     background-size: cover;
     background-attachment: fixed;
     */
-    height: 100%;
+    
  
 }
 
