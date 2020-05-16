@@ -92,7 +92,6 @@ $(document).ready(function() {
 		document.getElementById("slide3Text").innerHTML = text[language].portfolio.slide3.desc;
 		$('#contactsTitle').text(text[language].contacts.title);
 		document.getElementById("contactsText").innerHTML = text[language].contacts.summary;
-		document.getElementById("blogText").innerHTML = text[language].blog;
 		
 	};
 });
