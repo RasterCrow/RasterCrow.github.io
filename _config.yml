@@ -21,7 +21,7 @@
 title: Crow's Nest
 email: rastercrow@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Semplice blog in cui parlo di giochi, film, programmazione tutto ciò che mi passa per la testa.
+  Sito portfolio e blog di Alex Andries.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rastercrow
