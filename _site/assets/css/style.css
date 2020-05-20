@@ -116,7 +116,17 @@ video {
     max-height: 200px;
     margin-right: 20px;
 }
+#moreinfoButton{
+    margin-bottom: 10px;
+}
+#moreinfoButton:hover{
+    color : rgb(82, 153, 235);
+}
+#moreInfoText {
+    margin-right: 10px;
+ }
 /*contacts tab */
+
 
 .link_icon{
     width:20px;

@@ -74,9 +74,18 @@
                     <div class="card shadow card-body">
                       <div class="d-lg-flex .flex-row">
                         <img id="profileImage" src="{{- 'assets/data/alex.jpeg' | relative_url -}}" alt="Profile image" class="img-fluid rounded">
-                        <p id="infoText" class="card-inner-text">
-                        </p>
+                        <div class=".flex-column">
+                          <p id="infoText" class="card-inner-text">
+                          </p>
+                          <a id="moreinfoButton" href="#moreInfoCollapse" data-toggle="collapse">Want to know moreeee</a>
+
+                          <div id="moreInfoCollapse" class="collapse">
+                            <p id="moreInfoText" class="card-inner-text">
+                              Lorem ipsum dolor text....
+                            </p>
+                          </div> 
                         </div>
+                      </div>
                     </div>
                 </div>
                 <div class="collapse" id="collapsePortfolio"  >
