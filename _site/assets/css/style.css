@@ -1,209 +1,228 @@
-
 /* base css*/
-body, html {
-    font-weight: 600;
-    scroll-behavior: smooth;
-    margin-bottom: 40px;
-    height: 90%;
-    background-color: transparent;
-    font-family: 'Cairo', sans-serif;
-	
+body,
+html {
+  font-weight: 600;
+  scroll-behavior: smooth;
+  margin-bottom: 40px;
+  height: 100%;
+  margin: 0;
+
+  background-color: transparent;
+  font-family: "Cairo", sans-serif;
 }
+
+html {
+    width:100vw;
+    overflow-x:hidden;
+}
+
+
 
 body::-webkit-scrollbar {
   width: 1em;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
-video { 
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    background-size: cover !important;
-    transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateZ(0); /* promotes to a layer */
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-size: cover !important;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateZ(0); /* promotes to a layer */
 }
 /* generic */
 .zoom {
-    transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
 }
 .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .stroke {
-	-webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.5px black;
 }
 
 /* language bar */
 
 #radio-language {
-    margin :10px;
-    -webkit-text-stroke: 0.5px black;
+  margin: 10px;
+  -webkit-text-stroke: 0.5px black;
 }
-#radio-language .btn{
-    background-color: rgba(245, 245, 245, 0.3);
+#radio-language .btn {
+  background-color: rgba(245, 245, 245, 0.3);
 }
-#radio-language .btn.active{
-    background-color: rgb(82, 153, 235, 0.3);
+#radio-language .btn.active {
+  background-color: rgb(82, 153, 235, 0.3);
 }
 
 /* navbar*/
-.top-banner { 
-    margin-top:10px; 
-    margin-bottom: 50px;
+.top-banner {
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
-.banner-text{
-    color: #ffffff;
-    font-size: 30px;
-    text-shadow: 2px 3px #242323;
-    -webkit-text-stroke: 0.5px black;
+.banner-text {
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 2px 3px #242323;
+  -webkit-text-stroke: 0.5px black;
 }
 
-.top-banner a , a:visited, a:link{
-    color : white;
-    text-decoration: none;
+.top-banner a,
+a:visited,
+a:link {
+  color: white;
+  text-decoration: none;
 }
 .top-banner a:hover {
-    color : rgb(82, 153, 235);
-    text-decoration: none;
+  color: rgb(82, 153, 235);
+  text-decoration: none;
 }
 
 /* collapse cards */
-.card-inner-text{
-    margin-top : 5px;
-    color: #ffffff;
-    font-size: 20px;
-    text-shadow: 1px 1px #242323;
-    -webkit-text-stroke: 0.5px black;
+.card-inner-text {
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: 1px 1px #242323;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .collapse {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .card {
-    -webkit-text-stroke: 0.5px black;
-    background-color:rgba(245, 245, 245, 0.2);
+  -webkit-text-stroke: 0.5px black;
+  background-color: rgba(245, 245, 245, 0.2);
 }
 
 /* portfolio tab */
 
 #carouselPortfolio img {
-    max-width: 98%;
-    max-height: 720px;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 15px;
-  }
+  max-width: 98%;
+  max-height: 720px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 15px;
+}
 
-#portfolioText{
-    margin-top: 35px;
+#portfolioText {
+  margin-top: 35px;
 }
 /* info tab */
 
 #profileImage {
-    width: 100px;
-    max-width: 200px;
-    height : 100px;
-    max-height: 200px;
-    margin-right: 20px;
+  width: 90px;
+  max-width: 200px;
+  height: 100px;
+  max-height: 200px;
+  margin-right: 20px;
 }
-#moreinfoButton{
-    margin-bottom: 10px;
+#moreinfoButton {
+  margin-bottom: 10px;
 }
-#moreinfoButton:hover{
-    color : rgb(82, 153, 235);
+#moreinfoButton:hover {
+  color: rgb(82, 153, 235);
 }
 #moreInfoText {
-    margin-right: 10px;
- }
+  margin-right: 10px;
+}
 /*contacts tab */
 
-
-.link_icon{
-    width:20px;
-    height:20px;
-    margin-bottom: 3px;
+.link_icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
 }
-#contactList{
-    margin-left:20px;
-    margin-top: -18px;
+#contactList {
+  margin-left: 20px;
+  margin-top: -18px;
 }
 
 /* blog tab*/
-.postsContainer{
-    max-height: 1050px;
+.postsContainer {
+  max-height: 1050px;
 }
-.blogPost{
-	max-height:350px;
-    background-color: rgb(241, 237, 237, 0.6);
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left:auto;
-    margin-right:auto;
-    -webkit-text-stroke: 0.1px purple;
-    text-shadow: 0.5px 0.5px #0000ff;
+.blogPost {
+  max-height: 350px;
+  background-color: rgb(241, 237, 237, 0.6);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-stroke: 0.1px purple;
+  text-shadow: 0.5px 0.5px #0000ff;
 }
-.dataPost{
-    color : rgb(82, 153, 235);
+.dataPost {
+  color: rgb(82, 153, 235);
 }
 
-.blogPost , .blogPost a, .blogPost a:visited{
-    background-color: rgba(252, 252, 252, 0.7);
-    text-decoration: none;
-    color: black;
+.blogPost,
+.blogPost a,
+.blogPost a:visited {
+  background-color: rgba(252, 252, 252, 0.7);
+  text-decoration: none;
+  color: black;
 }
-#blogAlert{
-    font-size: 1.5em;
-    text-align: center;
-    -webkit-text-stroke: 0.1px white;
-    margin-bottom : 15px;
-    margin-top: 10px;
+#blogAlert {
+  font-size: 1.5em;
+  text-align: center;
+  -webkit-text-stroke: 0.1px white;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 /* stile blog post */
 
-.modal-content{
-    background-color: rgb(27, 26, 26);
-    margin-top: 10px;
-    border-radius: 10% 10%;
+.postPage {
+  background-color: rgba(29, 26, 26, 0.5);
+  margin-top: 5%;
 }
-.modal-content button{
-    width:20%;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
+#homeButton {
+  color: white;
+  background-color: rgba(29, 26, 26, 0.5);
+  -webkit-text-stroke: 0.2px purple;
+  min-width: 150px;
+  text-shadow: 1px 1px #0000ff;
+  width: 150px;
+  margin-top: 2%;
 }
-.blogText{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 0.1px purple;
-    text-shadow: 1px 1px #0000ff;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.titoloBlogPost{
-    text-align: center;
-}
-.dataBlogPost{
-    text-align: end;
-}
-.contenutoBlogPost img{
-    border-radius: 10% 10%;
-}
-.contenutoBlogPost a{
-    color: yellow;
+.blogText {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 0.1px purple;
+  text-shadow: 1px 1px #0000ff;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.contenutoBlogPost a:hover{
-    color: purple;
+.titoloBlogPost {
+  text-align: center;
+}
+.dataBlogPost {
+  text-align: end;
+  margin-right: 10px;
+}
+.contenutoBlogPost {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contenutoBlogPost img {
+  border-radius: 10% 10%;
+}
+.contenutoBlogPost a {
+  color: yellow;
+}
+.contenutoBlogPost a:hover {
+  color: purple;
 }
