@@ -1,25 +1,93 @@
-<div class="modal-body blogText">
-  <h1 class="titoloBlogPost">{{ page.title }}</h4>
-  <h5 class="dataBlogPost">{% assign m = page.date | date: "%-m" %}
-    {{ page.date | date: "%-d" }}
-    {% case m %}
-      {% when '1' %}Gennaio
-      {% when '2' %}Febbraio
-      {% when '3' %}Marzo
-      {% when '4' %}Aprile
-      {% when '5' %}Maggio
-      {% when '6' %}Giugno
-      {% when '7' %}Luglio
-      {% when '8' %}Agosto
-      {% when '9' %}Settembre
-      {% when '10' %}Ottobre
-      {% when '11' %}Novembre
-      {% when '12' %}Dicembre
-    {% endcase %}
-    {{ page.date | date: "%Y" }}
-  </h5>
-  <div class="contenutoBlogPost">
-    {{content}}
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="{{site.creator}}">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords" content="{{site.keywords_long}}">
+
+  <!-- Primary Meta Tags -->
+  <title>{{site.small_title}} - {{ page.title }}</title>
+  <meta name="title" content="{{site.small_title}} - {{ page.title }}">
+  <meta name="description" content="{{page.description}}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site.url}}{{ page.url }}">
+  <meta property="og:title" content="{{site.small_title}} - {{ page.title }}">
+  <meta property="og:description" content="{{page.description}}">
+  <meta property="og:image" content="{{- 'assets/data/alex.jpeg' | relative_url -}}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{site.url}}{{ page.url }}">
+  <meta property="twitter:title" content="{{site.small_title}} - {{ page.title }}">
+  <meta property="twitter:description" content="{{page.description}}">
+  <meta property="twitter:image" content="{{- 'assets/data/alex.jpeg' | relative_url -}}">
+
+  <link rel="icon" href="{{- 'assets/data/browser-icon.png' | relative_url -}}">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <link href="{{- 'assets/css/style.css' | relative_url -}}" rel="stylesheet">
+  
+</head>
+
+
+<body >
+  <!--background video-->
+  <video autoplay muted loop playsinline poster="{{- 'assets/data/bgsnap.jpg' | relative_url -}}" id="myVideo">
+    <source src="{{- 'assets/data/bgvideo.mp4' | relative_url -}}" type="video/mp4">
+    </source>
+    <source src="{{- 'assets/data/bgvideo.webm' | relative_url -}}" type="video/webm">
+    </source>
+    <source src="{{- 'assets/data/bgvideo.ogg' | relative_url -}}" type="video/ogg">
+    </source>
+  </video>
+  
+
+  <div class="d-flex justify-content-center">
+    <a id="homeButton" type="button" class="btn btn-default border-dark" href="/">Homepage</a>
   </div>
-</div>
-<button type="button" class="btn btn-default border-white" style="color: white;" data-dismiss="modal">Chiudi</button>
+
+  <div class="container justify-content-center ">
+    <div class="postPage card shadow card-body blogText">
+      <h1 class="titoloBlogPost">{{ page.title }}</h4>
+        <h5 class="dataBlogPost">{% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }}
+          {% case m %}
+          {% when '1' %}Gennaio
+          {% when '2' %}Febbraio
+          {% when '3' %}Marzo
+          {% when '4' %}Aprile
+          {% when '5' %}Maggio
+          {% when '6' %}Giugno
+          {% when '7' %}Luglio
+          {% when '8' %}Agosto
+          {% when '9' %}Settembre
+          {% when '10' %}Ottobre
+          {% when '11' %}Novembre
+          {% when '12' %}Dicembre
+          {% endcase %}
+          {{ page.date | date: "%Y" }}
+        </h5>
+        <div class="contenutoBlogPost">
+          {{content}}
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>

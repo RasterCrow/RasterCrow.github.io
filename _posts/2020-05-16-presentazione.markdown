@@ -1,8 +1,10 @@
 ---
 layout: blogPost
 title:  "Ciao!"
+author: Alex
+description: Primo post sul mio primo blog in quel che é anche il mio primo sito che rendo disponibile al pubblico.
 date:   2020-05-16 10:20:00 +0100
-categories: jekyll update
+categories: generale
 ---
 Primo post sul mio primo blog in quel che é anche il mio primo sito che rendo disponibile al pubblico.
 <!--intro-->
