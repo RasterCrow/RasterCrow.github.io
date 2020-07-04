@@ -6,8 +6,6 @@ description: Recentemente ho deciso di modificare ancora la sezione blog, nonch�
 date:   2020-06-08 15:50:00 +0100
 categories: generale
 ---
-Recentemente ho deciso di modificare ancora la sezione blog, nonchè diversi metadata dal sito, in modo da renderlo più semplice da trovare, mentre si naviga nel web.
-<!--intro-->
 
 Recentemente ho deciso di provare a dare maggiore importanza alla sezione Blog del sito.
 Questo perche, con tutto il tempo libero che ho avuto, ho lavorato su parecchi progetti con il `Raspberry Pi 4`, `React`, `Docker` e mi piacerebbe parlarne in qualche post.
