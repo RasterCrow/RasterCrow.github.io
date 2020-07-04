@@ -54,8 +54,6 @@ var text ={
 	}
 };
 
-
-
 $(document).ready(function() {
 	$('.post-modal').on('click', function(e){
 		e.preventDefault();
@@ -85,26 +83,26 @@ $(document).ready(function() {
 		document.getElementById("moreinfoButton").hidden=true;
 	})
 	
-	
-	// When the user scrolls the page, execute myFunction
 	window.onscroll = function() {myFunction()};
+		// Get the navbar
+		var navbar = document.getElementById("navbar");
+		var content = document.getElementById("content");
 
-	// Get the navbar
-	var navbar = document.getElementById("navbar");
-
-	// Get the offset position of the navbar
-	var sticky = navbar.offsetTop;
-
-	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-	function myFunction() {
-	if (window.pageYOffset >= sticky) {
-		navbar.classList.add("sticky")
-		navbar.classList.add("trasparent-background")
-	} else {
-		navbar.classList.remove("sticky");
-		navbar.classList.remove("trasparent-background")
-	}
-	}
+		// Get the offset position of the navbar
+		var sticky = navbar.offsetTop;
+	
+		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+				navbar.classList.add("trasparent-background")
+				content.classList.add("content")
+			} else {
+				navbar.classList.remove("sticky");
+				navbar.classList.remove("trasparent-background")
+				content.classList.remove("content")
+			}
+		}
 	
 	//traduco inizialmente la pagina in italino
 	translatePage("it");

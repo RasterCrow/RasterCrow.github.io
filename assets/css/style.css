@@ -70,6 +70,7 @@ video {
 .top-banner {
   margin-top: 10px;
   margin-bottom: 50px;
+  padding-left: 0px;
 }
 .banner-text {
   color: #ffffff;
@@ -89,6 +90,33 @@ a:link {
   text-decoration: none;
 }
 
+/* Page content */
+.content {
+  
+  padding-top: 70px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar {
+  z-index:100;
+  overflow: hidden;
+  
+}
+.trasparent-background {
+  -webkit-transition-duration: 0.5s;
+  background-color: rgba(245, 245, 245, 0.9);
+  margin-top: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  
+}
 /* collapse cards */
 .card-inner-text {
   margin-top: 5px;
