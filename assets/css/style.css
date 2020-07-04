@@ -6,7 +6,6 @@ html {
   margin-bottom: 40px;
   height: 100%;
   margin: 0;
-
   background-color: transparent;
   font-family: "Cairo", sans-serif;
 }
@@ -15,8 +14,6 @@ html {
     width:100vw;
     overflow-x:hidden;
 }
-
-
 
 body::-webkit-scrollbar {
   width: 1em;
@@ -74,10 +71,24 @@ video {
 }
 .banner-text {
   color: #ffffff;
-  font-size: 30px;
   text-shadow: 2px 3px #242323;
   -webkit-text-stroke: 0.5px black;
 }
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .banner-text {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .banner-text {
+    font-size: 20px;
+    text-shadow: 2px 2px #242323;
+  }
+}
+
 
 .top-banner a,
 a:visited,
@@ -121,9 +132,22 @@ a:link {
 .card-inner-text {
   margin-top: 5px;
   color: #ffffff;
-  font-size: 20px;
+  
   text-shadow: 1px 1px #242323;
   -webkit-text-stroke: 0.5px black;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .card-inner-text {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .card-inner-text {
+    font-size: 18px;
+  }
 }
 
 .collapse {
@@ -203,27 +227,45 @@ a:link {
   color: black;
 }
 #blogAlert {
-  font-size: 1.5em;
   text-align: center;
-  -webkit-text-stroke: 0.1px white;
+  color: red;
+  -webkit-text-stroke: 0.5px black ;
   margin-bottom: 15px;
   margin-top: 10px;
 }
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  #blogAlert {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #blogAlert {
+    font-size: 18px;
+  }
+}
+
 
 /* stile blog post */
 
 .postPage {
   background-color: rgba(29, 26, 26, 0.5);
   margin-top: 5%;
+  margin-bottom: 10%;
 }
-#homeButton {
+.homeButton {
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 2px 3px #242323;
+  -webkit-text-stroke: 0.5px black;
+  padding-top: 2%;
+}
+.homeButton a:visited,
+.homeButton a:link {
   color: white;
-  background-color: rgba(29, 26, 26, 0.5);
-  -webkit-text-stroke: 0.2px purple;
-  min-width: 150px;
-  text-shadow: 1px 1px #0000ff;
-  width: 150px;
-  margin-top: 2%;
+  text-decoration: none;
 }
 .blogText {
   text-decoration: none;
@@ -236,14 +278,40 @@ a:link {
 
 .titoloBlogPost {
   text-align: center;
+  color:rgb(71, 179, 98);
+  text-shadow: 1px 1px black;
 }
 .dataBlogPost {
   text-align: end;
   margin-right: 10px;
+  color:yellow
 }
-.contenutoBlogPost {
-  margin-left: 20px;
-  margin-right: 20px;
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+
+  .contenutoBlogPost {
+    margin-left: 20px;
+    font-size:20px;
+    margin-right: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .dataBlogPost {
+    text-align: end;
+    margin-right: 10px;
+    font-size:12px;
+  }
+  .titoloBlogPost {
+    text-align: center;
+    font-size:25px;
+  }
+  .contenutoBlogPost {
+    margin-left: 10px;
+    font-size:15px;
+    margin-right: 10px;
+  }
 }
 .contenutoBlogPost img {
   border-radius: 10% 10%;

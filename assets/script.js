@@ -1,6 +1,3 @@
-// script per index1 con test di angular
-
-//script per index2
 var text ={
 	"en":{
 		"contacts" :{
@@ -55,12 +52,30 @@ var text ={
 };
 
 $(document).ready(function() {
+	// Get the navbar
+	var navbar = document.getElementById("navbar");
+	var content = document.getElementById("content");
+	// Get the offset position of the navbar
+	var sticky = navbar.offsetTop;
+	//get if device is mobile
+	var ua = navigator.userAgent;
+	//var isMobile = /Android|webOS|iPhone|iPad|iPod/i.test(ua);
+	var isMobile = false
+	console.log(ua)
+	console.log(isMobile)
+
+	//on scroll add stickynavbar + navbar background
+	window.onscroll = function() {addStickyNavbar()};
+
+	//first translate in italian
+	translatePage("it");
+
 	$('.post-modal').on('click', function(e){
 		e.preventDefault();
 		$('#modalPost').modal('show').find('.modal-content').load($(this).attr('href'));
 	  });
 	
-	//usati per cambiare il colore ai link della navbar
+	//change color to navbar section links
 	$("#blogTitle").on("click", function() {
 		$(this).toggleClass('button-clicked');
 	})
@@ -76,23 +91,18 @@ $(document).ready(function() {
 
 	//scroll into the collapse clicked
 	$(document).on('shown.bs.collapse', function(event){
-        //console.log( "in! print e: " +event.type);
-        event.target.scrollIntoView({ behavior: 'smooth', block: 'center' })
+		console.log(event);
+		event.target.scrollIntoView({ behavior: 'smooth', block: 'center' })
 	});
+
+	//more info button  for info section
 	$("#moreinfoButton").on("click", function() {
 		document.getElementById("moreinfoButton").hidden=true;
 	})
-	
-	window.onscroll = function() {myFunction()};
-		// Get the navbar
-		var navbar = document.getElementById("navbar");
-		var content = document.getElementById("content");
 
-		// Get the offset position of the navbar
-		var sticky = navbar.offsetTop;
-	
-		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-		function myFunction() {
+	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function addStickyNavbar() {	
+		if (!isMobile) {
 			if (window.pageYOffset >= sticky) {
 				navbar.classList.add("sticky")
 				navbar.classList.add("trasparent-background")
@@ -103,16 +113,15 @@ $(document).ready(function() {
 				content.classList.remove("content")
 			}
 		}
-	
-	//traduco inizialmente la pagina in italino
-	translatePage("it");
-	//usato per cambiare lingua tramite radio button
+	}
+
+	//change language with radio button
     $("input[type='radio']").click(function(){
 		var pageLanguage = $("input[name='language']:checked").val();
 		translatePage(pageLanguage);
 	});
 
-	//carico le varie traduzioni
+	//load translation
 	function translatePage(language){
 		document.getElementById("infoText").innerHTML = text[language].info;
 		document.getElementById("portfolioText").innerHTML = text[language].portfolio.summary;
