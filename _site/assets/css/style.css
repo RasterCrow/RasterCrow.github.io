@@ -68,8 +68,10 @@ video {
 
 /* navbar*/
 .top-banner {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 50px;
+  padding-left: 0px;
+
 }
 .banner-text {
   color: #ffffff;
@@ -89,6 +91,38 @@ a:link {
   text-decoration: none;
 }
 
+/* Page content */
+.content {
+  -webkit-transition-duration: 0.5s;
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#navbar {
+  z-index:100;
+  overflow: hidden;
+  
+}
+.trasparent-background {
+  -webkit-transition-duration: 0.5s;
+  background-color: rgba(245, 245, 245, 0.9);
+  margin-top: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  
+}
 /* collapse cards */
 .card-inner-text {
   margin-top: 5px;
@@ -188,14 +222,15 @@ a:link {
   background-color: rgba(29, 26, 26, 0.5);
   margin-top: 5%;
 }
-#homeButton {
+.homeButton {
+  -webkit-text-stroke: 0.5px black;
+  padding-top: 2%;
+}
+
+.homeButton a:visited,
+.homeButton a:link{
   color: white;
-  background-color: rgba(29, 26, 26, 0.5);
-  -webkit-text-stroke: 0.2px purple;
-  min-width: 150px;
-  text-shadow: 1px 1px #0000ff;
-  width: 150px;
-  margin-top: 2%;
+  text-decoration: none;
 }
 .blogText {
   text-decoration: none;
@@ -218,7 +253,7 @@ a:link {
   margin-right: 20px;
 }
 .contenutoBlogPost img {
-  border-radius: 10% 10%;
+  border-radius: 8% 8%;
 }
 .contenutoBlogPost a {
   color: yellow;
