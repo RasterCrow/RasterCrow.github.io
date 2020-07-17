@@ -126,8 +126,10 @@ a:link {
   padding-top: 10px;
   padding-bottom: 10px;
 
-  
 }
+.not_trasparent-background {
+  -webkit-transition-duration: 0.5s;
+  }
 /* collapse cards */
 .card-inner-text {
   margin-top: 5px;

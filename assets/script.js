@@ -61,8 +61,8 @@ $(document).ready(function() {
 	var ua = navigator.userAgent;
 	//var isMobile = /Android|webOS|iPhone|iPad|iPod/i.test(ua);
 	var isMobile = false
-	console.log(ua)
-	console.log(isMobile)
+	//console.log(ua)
+	//console.log(isMobile)
 
 	//on scroll add stickynavbar + navbar background
 	window.onscroll = function() {addStickyNavbar()};
@@ -110,6 +110,8 @@ $(document).ready(function() {
 			} else {
 				navbar.classList.remove("sticky");
 				navbar.classList.remove("trasparent-background")
+				//Used to get animation when removing the trasparent background
+				navbar.classList.add("not_trasparent-background")
 				content.classList.remove("content")
 			}
 		}
