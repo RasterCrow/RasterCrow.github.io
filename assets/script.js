@@ -123,6 +123,8 @@ $(document).ready(function() {
 			} else {
 				navbar.classList.remove("sticky");
 				navbar.classList.remove("trasparent-background")
+				//Used to get animation when removing the trasparent background
+				navbar.classList.add("not_trasparent-background")
 				content.classList.remove("content")
 			}
 		}
