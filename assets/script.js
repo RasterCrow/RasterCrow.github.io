@@ -61,8 +61,8 @@ $(document).ready(function() {
 	var ua = navigator.userAgent;
 	//var isMobile = /Android|webOS|iPhone|iPad|iPod/i.test(ua);
 	var isMobile = false
-	console.log(ua)
-	console.log(isMobile)
+	//console.log(ua)
+	//console.log(isMobile)
 
 	//on scroll add stickynavbar + navbar background
 	window.onscroll = function() {addStickyNavbar()};
@@ -74,7 +74,20 @@ $(document).ready(function() {
 		e.preventDefault();
 		$('#modalPost').modal('show').find('.modal-content').load($(this).attr('href'));
 	  });
-	
+	//make collpasible elemnts not collpase after opening
+	$('#collapseInfo').on('shown.bs.collapse', function () {
+		document.getElementById("infoTitle").removeAttribute("data-toggle")
+	  })
+	  $('#collapsePortfolio').on('shown.bs.collapse', function () {
+		document.getElementById("portfolioTitle").removeAttribute("data-toggle")
+	  })
+	  $('#collapseContacts').on('shown.bs.collapse', function () {
+		document.getElementById("contactsTitle").removeAttribute("data-toggle")
+	  })
+	  $('#collapseBlog').on('shown.bs.collapse', function () {
+		document.getElementById("blogTitle").removeAttribute("data-toggle")
+	  })
+
 	//change color to navbar section links
 	$("#blogTitle").on("click", function() {
 		$(this).toggleClass('button-clicked');
@@ -91,7 +104,7 @@ $(document).ready(function() {
 
 	//scroll into the collapse clicked
 	$(document).on('shown.bs.collapse', function(event){
-		console.log(event);
+		//console.log(event);
 		event.target.scrollIntoView({ behavior: 'smooth', block: 'center' })
 	});
 
