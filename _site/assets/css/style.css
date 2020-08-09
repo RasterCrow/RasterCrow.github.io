@@ -11,8 +11,8 @@ html {
 }
 
 html {
-    width:100vw;
-    overflow-x:hidden;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -89,7 +89,6 @@ video {
   }
 }
 
-
 .top-banner a,
 a:visited,
 a:link {
@@ -103,7 +102,6 @@ a:link {
 
 /* Page content */
 .content {
-  
   padding-top: 70px;
 }
 
@@ -115,9 +113,8 @@ a:link {
 }
 
 #navbar {
-  z-index:100;
+  z-index: 100;
   overflow: hidden;
-  
 }
 .trasparent-background {
   -webkit-transition-duration: 0.5s;
@@ -125,14 +122,15 @@ a:link {
   margin-top: -10px;
   padding-top: 10px;
   padding-bottom: 10px;
-
-  
+}
+.not_trasparent-background {
+  -webkit-transition-duration: 0.5s;
 }
 /* collapse cards */
 .card-inner-text {
   margin-top: 5px;
   color: #ffffff;
-  
+
   text-shadow: 1px 1px #242323;
   -webkit-text-stroke: 0.5px black;
 }
@@ -229,7 +227,7 @@ a:link {
 #blogAlert {
   text-align: center;
   color: red;
-  -webkit-text-stroke: 0.5px black ;
+  -webkit-text-stroke: 0.5px black;
   margin-bottom: 15px;
   margin-top: 10px;
 }
@@ -246,7 +244,6 @@ a:link {
     font-size: 18px;
   }
 }
-
 
 /* stile blog post */
 
@@ -278,20 +275,19 @@ a:link {
 
 .titoloBlogPost {
   text-align: center;
-  color:rgb(71, 179, 98);
+  color: rgb(71, 179, 98);
   text-shadow: 1px 1px black;
 }
 .dataBlogPost {
   text-align: end;
   margin-right: 10px;
-  color:yellow
+  color: yellow;
 }
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
-
   .contenutoBlogPost {
     margin-left: 20px;
-    font-size:20px;
+    font-size: 20px;
     margin-right: 20px;
   }
 }
@@ -301,15 +297,15 @@ a:link {
   .dataBlogPost {
     text-align: end;
     margin-right: 10px;
-    font-size:12px;
+    font-size: 12px;
   }
   .titoloBlogPost {
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
   }
   .contenutoBlogPost {
     margin-left: 10px;
-    font-size:15px;
+    font-size: 15px;
     margin-right: 10px;
   }
 }
@@ -321,4 +317,19 @@ a:link {
 }
 .contenutoBlogPost a:hover {
   color: purple;
+}
+
+/* carousel description */
+.carousel-caption {
+  background-color: rgba(252, 252, 252, 0.8);
+  color: black;
+  -webkit-text-stroke: 0.2px blue;
+}
+.carousel-caption h5 {
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+}
+.carousel-caption a {
+  color: white;
+  -webkit-text-stroke: 0.5px black;
 }
