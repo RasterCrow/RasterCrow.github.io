@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/posts/generale/presentazione</loc>
+<loc>http://rastercrow.me/posts/generale/presentazione</loc>
 <lastmod>2020-05-16T11:20:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/posts/generale/modifiche-al-sito</loc>
+<loc>http://rastercrow.me/posts/generale/modifiche-al-sito</loc>
 <lastmod>2020-06-08T16:50:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://rastercrow.me/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/assets/cv.pdf</loc>
+<loc>http://rastercrow.me/assets/cv.pdf</loc>
 <lastmod>2020-07-04T17:30:34+02:00</lastmod>
 </url>
 </urlset>
