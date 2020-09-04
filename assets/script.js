@@ -25,7 +25,7 @@ var text = {
 			},
 			"slide4": {
 				"title": "BoxOffice Italia Webapp",
-				"desc": `Webapp I made to keep track of the Italian BoxOffice. It's for private use only. <br> In the future I'll make a demo version for everyone to check. <br> Made witch React, Express and Mongo, you can find out more about it on <a href="https://github.com/RasterCrow/Boxoffice_Italia" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a>`
+				"desc": `Webapp I made to keep track of the Italian BoxOffice. It's for private use only. <br> A demo version is available <a href="https://boxoffice.rastercrow.me" target="_blank">here</a> ( It's only available in Italian ). <br> Made witch React, Express and Mongo, you can find out more about it on <a href="https://github.com/RasterCrow/Boxoffice_Italia" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a>`
 			},
 			"slide5": {
 				"title": "Dario Moccia - Episode Tracker / Chrome Extension",
@@ -59,7 +59,7 @@ var text = {
 			},
 			"slide4": {
 				"title": "BoxOffice Italia Webapp",
-				"desc": `Webapp per controllare lo stato del botteghino cinematografico italiano. Disponibile solo per uso privato. <br> In futuro aggiungero una versione demo per vederne il funzionamento. <br> Sviluppato in React, Express e Mongo, altre info sulla repository di <a href="https://github.com/RasterCrow/Boxoffice_Italia" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a>`
+				"desc": `Webapp per controllare lo stato del botteghino cinematografico italiano. Disponibile solo per uso privato. <br> Una versione demo e' disponibile <a href="https://boxoffice.rastercrow.me" target="_blank">qui</a>. <br> Sviluppato in React, Express e Mongo, altre info sulla repository di <a href="https://github.com/RasterCrow/Boxoffice_Italia" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a>`
 			},
 			"slide5": {
 				"title": "Dario Moccia - Episode Tracker / Estensione per Chrome",
