@@ -68,7 +68,7 @@ var text = {
 };
 
 $(document).ready(function () {
-	// Get the navbar
+	// Get the navbar//
 	var navbar = document.getElementById("navbar");
 	var content = document.getElementById("content");
 	// Get the offset position of the navbar
