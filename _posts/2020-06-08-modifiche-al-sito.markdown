@@ -1,9 +1,11 @@
 ---
 layout: blogPost
-title:  "Come ho modificato il sito."
+title: "Come ho modificato il sito."
 author: Alex
+lang: IT
+lang-ref: Come ho modificato il sito.
 description: Recentemente ho deciso di modificare ancora la sezione blog, nonchè diversi metadata dal sito, in modo da renderlo più semplice da trovare, mentre si naviga nel web.
-date:   2020-06-08 15:50:00 +0100
+date: 2020-06-08 15:50:00 +0100
 categories: generale
 ---
 
@@ -23,4 +25,4 @@ So che usando servizi come `WordPress` o `Wiz` avrei potuto fare tutto questo mo
 
 Grazie per la lettura, alla prossima!
 
-*P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design.*
+_P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design._

@@ -1,0 +1,21 @@
+<!-- Carousel with images. to work it needs : 
+
+carousel:
+  - image: xxx
+  - image: xxx
+
+
+{% include flexslider-posts.html %}
+-->
+
+{% if page.carousel %}
+<div class="flexslider">
+  <ul class="slides">
+    {% for slides in page.carousel %}
+    <li>
+      <img src="{{ slides.image }}" />
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -34,25 +34,17 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+  
 
   <link href="{{- 'assets/css/style.css' | relative_url -}}" rel="stylesheet">
-  <script src="{{- 'assets/script.js' | relative_url -}}"></script>
-
+  
 </head>
 
 <body>
   <!--background video-->
 
   <video autoplay muted loop playsinline poster="{{- 'assets/data/bgsnap.jpg' | relative_url -}}" id="myVideo">
-    <source src="{{- 'assets/data/bgvideo.mp4' | relative_url -}}" type="video/mp4">
-    </source>
+
     <source src="{{- 'assets/data/bgvideo.webm' | relative_url -}}" type="video/webm">
     </source>
     <source src="{{- 'assets/data/bgvideo.ogg' | relative_url -}}" type="video/ogg">
@@ -62,10 +54,10 @@
   <div class="d-flex justify-content-center">
     <div id="radio-language" class="btn-group btn-group-toggle" data-toggle="buttons">
       <label class="btn btn-secondary active">
-        <input type="radio" name="language" id="lan-it" value="it" autocomplete="off" checked> IT
+        <input type="radio" name="language" id="lan-en" value="en" autocomplete="off" checked> EN
       </label>
       <label class="btn btn-secondary">
-        <input type="radio" name="language" id="lan-en" value="en" autocomplete="off"> EN
+        <input type="radio" name="language" id="lan-it" value="it" autocomplete="off"> IT
       </label>
     </div>
   </div>
@@ -134,7 +126,7 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <a href="https://github.com/RasterCrow/MyAlexaSkills" target="_blank">
+                  <a href="https://github.com/RasterCrow/MyAlexaSkills" rel="noopener" target="_blank">
                     <img src="{{- 'assets/data/alexa_banner.jpg' | relative_url -}}" class="d-block w-100"
                       alt="Alexa Banner">
                   </a>
@@ -144,7 +136,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <a href="http://rastercrow.altervista.org/" target="_blank">
+                  <a href="http://rastercrow.altervista.org/" rel="noopener" target="_blank">
                     <img src="{{- 'assets/data/deepspace_banner.jpg' | relative_url -}}" class="d-block w-100"
                       alt="Deep Space Game Banner">
                   </a>
@@ -154,7 +146,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://www.facebook.com/webidea.ee/" target="_blank">
+                  <a href="https://www.facebook.com/webidea.ee/" rel="noopener" target="_blank">
                     <img src="{{- 'assets/data/navimon_banner.jpg' | relative_url -}}" class="d-block w-100"
                       alt="NaviMon App">
                   </a>
@@ -164,7 +156,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://github.com/RasterCrow/Boxoffice_Italia" target="_blank">
+                  <a href="https://github.com/RasterCrow/Boxoffice_Italia" rel="noopener" target="_blank">
                     <img src="{{- 'assets/data/boxoffice_banner.jpeg' | relative_url -}}" class="d-block w-100"
                       alt="Boxoffice Italia Banner">
                   </a>
@@ -174,7 +166,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <a href="https://github.com/RasterCrow/DarioMocciaTracker-chrome" target="_blank">
+                  <a href="https://github.com/RasterCrow/DarioMocciaTracker-chrome" rel="noopener" target="_blank">
                     <img src="{{- 'assets/data/dariomoccia_banner.png' | relative_url -}}" class="d-block w-100"
                       alt="Dario Moccia Tracker Banner">
                   </a>
@@ -206,74 +198,72 @@
         <div class="collapse indent" id="collapseBlog">
           <div class="card shadow card-body">
             <div class="container-fluid postsContainer overflow-auto">
-              <div id="blogAlert"></div>
+
+              {% assign allPosts=site.posts | where:"lang", "EN" %}
               {% assign postsCount = 2 %}
-              {% for post in site.posts %}
+              {% for post in allPosts %}
               <!-- con risultato 0 devo fare una nuova row-->
               {% assign resto = postsCount | modulo:2%}
               {% if resto == 0 %}
               {% assign postsCount = 0 %}
               <div class="row justify-content-center ">
                 <div class="col-lg-5">
-                  <a class="stroke" href="{{ post.url }}">
+                  
                     <div class="card card-body blogPost shadow overflow-auto">
                       <article>
                         <!-- <h2><a class ="stroke" href="{{ post.url }}">{{ post.title }}</a></h2>-->
                         <h2 class="titoloBlogPost">{{ post.title }}</h2>
-                        <p class="dataPost">Pubblicato il
-                          {% assign m = post.date | date: "%-m" %}
-                          {{ post.date | date: "%-d" }}
-                          {% case m %}
-                          {% when '1' %}Gennaio
-                          {% when '2' %}Febbraio
-                          {% when '3' %}Marzo
-                          {% when '4' %}Aprile
-                          {% when '5' %}Maggio
-                          {% when '6' %}Giugno
-                          {% when '7' %}Luglio
-                          {% when '8' %}Agosto
-                          {% when '9' %}Settembre
-                          {% when '10' %}Ottobre
-                          {% when '11' %}Novembre
-                          {% when '12' %}Dicembre
-                          {% endcase %}
-                          {{ post.date | date: "%Y" }} </p>
-                        {{ post.description }}
+                        <div class="dataText">Published on : &nbsp</div><p class="dataPost">{{ post.date | date_to_long_string}}</p>
+                        <div>
+                          {{ post.description }}
+                        </div> 
                       </article>
+                      <hr>
+                      <footer class="lang-options">
+                        {% assign postslang=site.posts | where:"lang-ref", post.lang-ref | sort: 'lang' %}
+                        <em>View this post in :</em>
+                        <ul>
+                          {% for postlang in postslang %}
+                          <li>
+                            <a href="{{ site.base-url }}{{ postlang.url }}" rel="noopener" target="_blank" class="{{ postlang.lang }}" title="View in {{postlang.lang}}">
+                              <img class="flagIcon" src="assets/data/{{ postlang.lang }}-flag.svg" alt="{{ postlang.lang }} flag">
+                            </a>
+                          </li>
+                          {% endfor %}
+                        </ul>
+                      </footer>
                     </div>
-                  </a>
+                  
                 </div>
                 {% assign postsCount = postsCount | plus: 1 %}
                 <!-- altrimenti faccio solo colonna-->
                 {% else %}
                 <div class="col-lg-5">
-                  <a class="stroke" href="{{ post.url }}">
+                  
                     <div class="card card-body blogPost shadow overflow-auto">
                       <article>
                         <!-- <h2><a class ="stroke" href="{{ post.url }}">{{ post.title }}</a></h2>-->
                         <h2 class="titoloBlogPost">{{ post.title }}</h2>
-                        <p class="dataPost">Pubblicato il
-                          {% assign m = post.date | date: "%-m" %}
-                          {{ post.date | date: "%-d" }}
-                          {% case m %}
-                          {% when '1' %}Gennaio
-                          {% when '2' %}Febbraio
-                          {% when '3' %}Marzo
-                          {% when '4' %}Aprile
-                          {% when '5' %}Maggio
-                          {% when '6' %}Giugno
-                          {% when '7' %}Luglio
-                          {% when '8' %}Agosto
-                          {% when '9' %}Settembre
-                          {% when '10' %}Ottobre
-                          {% when '11' %}Novembre
-                          {% when '12' %}Dicembre
-                          {% endcase %}
-                          {{ post.date | date: "%Y" }} </p>
-                        {{ post.description }}
+                        <div class="dataText">Published on : &nbsp</div><p class="dataPost">{{ post.date | date_to_long_string}}</p>
+                        <div>
+                          {{ post.description }}
+                        </div> 
                       </article>
+                      <hr>
+                      <footer class="lang-options">
+                        {% assign postslang=site.posts | where:"lang-ref", post.lang-ref | sort: 'lang' %}
+                        <em>View this post in :</em>
+                        <ul>
+                          {% for postlang in postslang %}
+                          <li>
+                            <a href="{{ site.base-url }}{{ postlang.url }}" rel="noopener" target="_blank" class="{{ postlang.lang }}" title="View in {{postlang.lang}}">
+                              <img class="flagIcon" src="assets/data/{{ postlang.lang }}-flag.svg" alt="{{ postlang.lang }} flag">
+                            </a>
+                          </li>
+                          {% endfor %}
+                        </ul>
+                      </footer>
                     </div>
-                  </a>
                 </div>
               </div>
               {% assign postsCount = postsCount | plus: 1 %}
@@ -283,11 +273,23 @@
             </div>
             {% endif %}
           </div>
+          
         </div>
       </div>
     </div>
   </div>
   </div>
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+    <script src="{{- 'assets/script.js' | relative_url -}}"></script>
 
 </body>
 

@@ -99,6 +99,7 @@ a:visited,
 a:link {
   color: white;
   text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
 }
 .top-banner a:hover {
   color: rgb(82, 153, 235);
@@ -121,7 +122,9 @@ a:link {
   z-index: 100;
   overflow: hidden;
 }
-
+.navbarShadow {
+  box-shadow: 0 7px 6px rgba(0, 0, 0, 0.3);
+}
 #title {
   text-align: center;
   color: rgb(36, 188, 235);
@@ -200,7 +203,6 @@ a:link {
   max-height: 720px;
   border-radius: 20px;
   margin: auto;
-  margin-top: 15px;
 }
 
 #portfolioText {
@@ -242,7 +244,7 @@ a:link {
 }
 .blogPost {
   max-height: 350px;
-  background-color: rgb(241, 237, 237, 0.6);
+  background-color: rgba(255, 255, 255, 0.808);
   margin-bottom: 20px;
   margin-top: 10px;
   margin-left: auto;
@@ -251,13 +253,19 @@ a:link {
   text-shadow: 0.5px 0.5px #0000ff;
 }
 .dataPost {
-  color: rgb(82, 153, 235);
+  display: inline-block;
+  color: yellow;
+  -webkit-text-stroke: 0.5px black;
+}
+.dataText {
+  display: inline-block;
+  color: yellow;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .blogPost,
 .blogPost a,
 .blogPost a:visited {
-  background-color: rgba(252, 252, 252, 0.7);
   text-decoration: none;
   color: black;
 }
@@ -316,13 +324,47 @@ a:link {
 
 .titoloBlogPost {
   text-align: center;
-  color: rgb(71, 179, 98);
+  color: rgb(36, 188, 235);
   text-shadow: 1px 1px black;
 }
 .dataBlogPost {
   text-align: end;
   margin-right: 10px;
   color: yellow;
+}
+.contenutoBlogPost a {
+  color: yellow;
+}
+.contenutoBlogPost a:hover {
+  color: purple;
+}
+
+.lang-options {
+  margin: auto;
+  -webkit-text-stroke: 0.5px black !important;
+  text-shadow: 0.8px 1px #242323 !important;
+  color: white;
+}
+
+.lang-options ul {
+  padding-inline-start: 10px !important;
+  margin: auto;
+  list-style: none;
+}
+.lang-options li {
+  display: inline;
+  margin: 10px;
+}
+.lang-options li a {
+  text-decoration: none;
+}
+.lang-options li a {
+  text-decoration: none;
+}
+
+.flagIcon {
+  width: 30px;
+  height: 30px;
 }
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
@@ -358,15 +400,6 @@ a:link {
     transition-duration: 0.5s;
   }
 }
-.contenutoBlogPost img {
-  border-radius: 10% 10%;
-}
-.contenutoBlogPost a {
-  color: yellow;
-}
-.contenutoBlogPost a:hover {
-  color: purple;
-}
 
 /* carousel description */
 .carousel-caption {
@@ -375,7 +408,7 @@ a:link {
   -webkit-text-stroke: 0.2px blue;
 }
 .carousel-caption h5 {
-  color: white;
+  color: rgb(36, 188, 235);
   -webkit-text-stroke: 0.5px black;
 }
 .carousel-caption a {

@@ -42,7 +42,7 @@
     crossorigin="anonymous"></script>
 
   <link href="{{- 'assets/css/style.css' | relative_url -}}" rel="stylesheet">
-  
+  <link rel="stylesheet" href="/assets/css/flexslider.css">
   
 </head>
 
@@ -50,8 +50,6 @@
 <body >
   <!--background video-->
   <video autoplay muted loop playsinline poster="{{- 'assets/data/bgsnap.jpg' | relative_url -}}" id="myVideo">
-    <source src="{{- 'assets/data/bgvideo.mp4' | relative_url -}}" type="video/mp4">
-    </source>
     <source src="{{- 'assets/data/bgvideo.webm' | relative_url -}}" type="video/webm">
     </source>
     <source src="{{- 'assets/data/bgvideo.ogg' | relative_url -}}" type="video/ogg">
@@ -60,9 +58,7 @@
   
 
   <div  id="navbar" class="d-flex justify-content-center homeButton banner-text">
-    <a href="/" role="button">
-      HomePage
-    </a>
+
   </div>
 
   <div class="container justify-content-center ">
@@ -91,6 +87,14 @@
         </div>
     </div>
   </div>
+  <!-- Flexslider Scripts -->
+	{% if page.carousel %}
+  <!-- Flexslider Library  -->
+  <script src="{{- 'assets/js/jquery.flexslider-min.js' | relative_url -}}"></script>
+  <script src="{{- 'assets/js/blog.js' | relative_url -}}"></script>
+  {% endif %}
+
+  
 </body>
 
 </html>

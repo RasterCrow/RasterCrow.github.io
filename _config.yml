@@ -30,7 +30,7 @@ github_username:  rastercrow
 excerpt_separator: <!--intro-->
 permalink: /posts/:categories/:title
 keywords_long: "alex andries, portfolio, blog, alexandru stefan andries, rastercrow, raster, rasterin, hardware, raspberry, videogames, videogiochi, guide pc"
-
+lang: en 
 # Build settings
 #theme: minima
 #plugins:
