@@ -6,7 +6,6 @@ html {
   margin-bottom: 40px;
   height: 100%;
   margin: 0;
-  background-color: transparent;
   font-family: "Cairo", sans-serif;
 }
 
@@ -14,7 +13,9 @@ html {
   width: 100vw;
   overflow-x: hidden;
 }
-
+html {
+  overflow-y: scroll;
+}
 body::-webkit-scrollbar {
   width: 1em;
 }
@@ -27,6 +28,22 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
+
+#background {
+  position: fixed;
+
+  background-size: cover !important;
+  min-width: 100%;
+  min-height: 100%;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  z-index: -1;
+}
+
 video {
   position: fixed;
   min-width: 100%;
@@ -102,7 +119,7 @@ a:link {
   -webkit-text-stroke: 0.5px black;
 }
 .top-banner a:hover {
-  color: rgb(82, 153, 235);
+  color: rgb(111, 165, 226);
   text-decoration: none;
 }
 
@@ -127,7 +144,7 @@ a:link {
 }
 #title {
   text-align: center;
-  color: rgb(36, 188, 235);
+  color: rgb(99, 200, 231);
   text-shadow: 2px 2px #242323;
 }
 
@@ -221,7 +238,7 @@ a:link {
   margin-bottom: 10px;
 }
 #moreinfoButton:hover {
-  color: rgb(82, 153, 235);
+  color: rgb(111, 165, 226);
 }
 #moreInfoText {
   margin-right: 10px;
@@ -238,12 +255,17 @@ a:link {
   margin-top: -18px;
 }
 
+#contactList a:hover {
+  color: rgb(111, 165, 226);
+}
+
 /* blog tab*/
 .postsContainer {
   max-height: 1050px;
 }
 .blogPost {
   max-height: 350px;
+
   background-color: rgba(255, 255, 255, 0.808);
   margin-bottom: 20px;
   margin-top: 10px;
@@ -254,12 +276,12 @@ a:link {
 }
 .dataPost {
   display: inline-block;
-  color: yellow;
+  color: rgb(114, 223, 214);
   -webkit-text-stroke: 0.5px black;
 }
 .dataText {
   display: inline-block;
-  color: yellow;
+  color: rgb(114, 223, 214);
   -webkit-text-stroke: 0.5px black;
 }
 
@@ -297,7 +319,7 @@ a:link {
 /* stile blog post */
 
 .postPage {
-  background-color: rgba(29, 26, 26, 0.5);
+  background-color: rgba(245, 245, 245, 0.2);
   margin-top: 5%;
   margin-bottom: 10%;
 }
@@ -324,16 +346,16 @@ a:link {
 
 .titoloBlogPost {
   text-align: center;
-  color: rgb(36, 188, 235);
+  color: rgb(89, 151, 233);
   text-shadow: 1px 1px black;
 }
 .dataBlogPost {
   text-align: end;
   margin-right: 10px;
-  color: yellow;
+  color: rgb(236, 195, 83);
 }
 .contenutoBlogPost a {
-  color: yellow;
+  color: rgb(236, 195, 83);
 }
 .contenutoBlogPost a:hover {
   color: purple;

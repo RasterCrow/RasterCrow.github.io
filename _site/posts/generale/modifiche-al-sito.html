@@ -43,19 +43,19 @@
 
   <link href="/assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/flexslider.css">
-  
+  <script>
+    $(document).ready(function () {
+
+    var images = ['bg1.webp', 'bg2.webp', 'bg3.webp', 'bg4.webp', 'bg5.webp', 'bg6.webp', 'bg7.webp'];
+    $('#background').css({ 'background-image': 'url(/assets/data/' + images[Math.floor(Math.random() * images.length)] + ')' });
+
+    });
+    </script>
 </head>
 
 
 <body >
-  <!--background video-->
-  <video autoplay muted loop playsinline poster="/assets/data/bgsnap.jpg" id="myVideo">
-    <source src="/assets/data/bgvideo.webm" type="video/webm">
-    </source>
-    <source src="/assets/data/bgvideo.ogg" type="video/ogg">
-    </source>
-  </video>
-  
+  <div id="background"></div>
 
   <div  id="navbar" class="d-flex justify-content-center homeButton banner-text">
 

@@ -66,8 +66,11 @@ var text = {
 		}
 	}
 };
-
 $(document).ready(function () {
+
+	var images = ['bg1.webp', 'bg2.webp', 'bg3.webp', 'bg4.webp', 'bg5.webp', 'bg6.webp', 'bg7.webp'];
+	$('#background').css({ 'background-image': 'url(/assets/data/' + images[Math.floor(Math.random() * images.length)] + ')' });
+
 	// Get the navbar//
 	var navbar = document.getElementById("navbar");
 	var content = document.getElementById("content");

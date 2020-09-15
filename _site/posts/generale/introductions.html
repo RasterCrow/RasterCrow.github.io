@@ -11,20 +11,20 @@
   <!-- Primary Meta Tags -->
   <title>Crow's Nest - Hello!</title>
   <meta name="title" content="Crow's Nest - Hello!">
-  <meta name="description" content="First post on my first blog in what is also my first website that I deployed.">
+  <meta name="description" content="First post on my first blog in what is also the first website that I deploy.">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/posts/generale/introductions">
   <meta property="og:title" content="Crow's Nest - Hello!">
-  <meta property="og:description" content="First post on my first blog in what is also my first website that I deployed.">
+  <meta property="og:description" content="First post on my first blog in what is also the first website that I deploy.">
   <meta property="og:image" content="/assets/data/alex.jpeg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="http://localhost:4000/posts/generale/introductions">
   <meta property="twitter:title" content="Crow's Nest - Hello!">
-  <meta property="twitter:description" content="First post on my first blog in what is also my first website that I deployed.">
+  <meta property="twitter:description" content="First post on my first blog in what is also the first website that I deploy.">
   <meta property="twitter:image" content="/assets/data/alex.jpeg">
 
   <link rel="icon" href="/assets/data/browser-icon.png">
@@ -43,19 +43,19 @@
 
   <link href="/assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/flexslider.css">
-  
+  <script>
+    $(document).ready(function () {
+
+    var images = ['bg1.webp', 'bg2.webp', 'bg3.webp', 'bg4.webp', 'bg5.webp', 'bg6.webp', 'bg7.webp'];
+    $('#background').css({ 'background-image': 'url(/assets/data/' + images[Math.floor(Math.random() * images.length)] + ')' });
+
+    });
+    </script>
 </head>
 
 
 <body >
-  <!--background video-->
-  <video autoplay muted loop playsinline poster="/assets/data/bgsnap.jpg" id="myVideo">
-    <source src="/assets/data/bgvideo.webm" type="video/webm">
-    </source>
-    <source src="/assets/data/bgvideo.ogg" type="video/ogg">
-    </source>
-  </video>
-  
+  <div id="background"></div>
 
   <div  id="navbar" class="d-flex justify-content-center homeButton banner-text">
 
@@ -69,9 +69,9 @@
         <div class="contenutoBlogPost">
           <p>To be honest I don’t even know what to write, but I didn’t want to leave the <code class="highlighter-rouge">Blog</code> section empty so here I am.</p>
 
-<p>Given all the projects I’ve started and never finished ( I’m watching at you <a href="https://www.youtube.com/watch?v=jYLgi8wGVLg">The Witcher series</a> {: target = “\ _ blank”}) I don’t feel like planning posts for the future, but if one day I want to show some of my projects, talk about some game or movie or more simply to share my thoughts, I’ll most likely make a post about it.</p>
+<p>Given all the projects I’ve started and never finished (I’m looking at you <a href="https://www.youtube.com/watch?v=jYLgi8wGVLg" target="\_blank">The Witcher series</a>) I don’t feel like planning posts for the future, but if I one day  want to show some of my projects, talk about some games or movies or more simply to share my thoughts, I’ll most likely make a post about it.</p>
 
-<p>The idea of ​​the blog in the end is more a <code class="highlighter-rouge">side-project</code> than anything else, my intention initially was to make a simple site that acts as a portfolio for me and I am quite happy with the result counting that, as already said before, it’s the first time I’ve done something like this.</p>
+<p>The idea of ​​the blog in the end is more of a <code class="highlighter-rouge">side-project</code> than anything else, my intention initially was to make a simple site that acts as a portfolio for me and I am quite happy with the result counting that, as already said before, it’s the first time I’ve done something like this.</p>
 
 <p>I have nothing more to say, so I leave you to your browsing; see you next time!</p>
 
