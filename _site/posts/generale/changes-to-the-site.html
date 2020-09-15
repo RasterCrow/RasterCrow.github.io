@@ -1,73 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Alexandru Stefan Andries" />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="alex andries, portfolio, blog, alexandru stefan andries, rastercrow, raster, rasterin, hardware, raspberry, videogames, videogiochi, guide pc" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Alexandru Stefan Andries">
-  <meta name="robots" content="index,follow">
-  <meta name="keywords" content="alex andries, portfolio, blog, alexandru stefan andries, rastercrow, raster, rasterin, hardware, raspberry, videogames, videogiochi, guide pc">
+    <!-- Primary Meta Tags -->
+    <title>Crow's Nest - How I updated the website</title>
+    <meta name="title" content="Crow's Nest - How I updated the website" />
+    <meta name="description" content="Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web." />
 
-  <!-- Primary Meta Tags -->
-  <title>Crow's Nest - How I updated the website</title>
-  <meta name="title" content="Crow's Nest - How I updated the website">
-  <meta name="description" content="Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://localhost:4000/posts/generale/changes-to-the-site" />
+    <meta
+      property="og:title"
+      content="Crow's Nest - How I updated the website"
+    />
+    <meta property="og:description" content="Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web." />
+    <meta
+      property="og:image"
+      content="/assets/data/alex.jpeg"
+    />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:4000/posts/generale/changes-to-the-site">
-  <meta property="og:title" content="Crow's Nest - How I updated the website">
-  <meta property="og:description" content="Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web.">
-  <meta property="og:image" content="/assets/data/alex.jpeg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://localhost:4000/posts/generale/changes-to-the-site" />
+    <meta
+      property="twitter:title"
+      content="Crow's Nest - How I updated the website"
+    />
+    <meta property="twitter:description" content="Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web." />
+    <meta
+      property="twitter:image"
+      content="/assets/data/alex.jpeg"
+    />
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="http://localhost:4000/posts/generale/changes-to-the-site">
-  <meta property="twitter:title" content="Crow's Nest - How I updated the website">
-  <meta property="twitter:description" content="Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web.">
-  <meta property="twitter:image" content="/assets/data/alex.jpeg">
+    <link
+      rel="icon"
+      href="/assets/data/browser-icon.png"
+    />
 
-  <link rel="icon" href="/assets/data/browser-icon.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&amp;display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-
-  <link href="/assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/flexslider.css">
-  <script>
-    $(document).ready(function () {
-
-    var images = ['bg1.webp', 'bg2.webp', 'bg3.webp', 'bg4.webp', 'bg5.webp', 'bg6.webp', 'bg7.webp'];
-    $('#background').css({ 'background-image': 'url(/assets/data/' + images[Math.floor(Math.random() * images.length)] + ')' });
-
-    });
+    <link
+      href="/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/flexslider.css" />
+    <script>
+      $(document).ready(function () {
+        //change background here since i'm not importing script.js
+        var images = [
+          "bg1.webp",
+          "bg2.webp",
+          "bg3.webp",
+          "bg4.webp",
+          "bg5.webp",
+          "bg6.webp",
+          "bg7.webp",
+        ];
+        $("#background").css({
+          "background-image":
+            "url(/assets/data/" +
+            images[Math.floor(Math.random() * images.length)] +
+            ")",
+        });
+      });
     </script>
-</head>
+  </head>
 
+  <body>
+    <div id="background"></div>
 
-<body >
-  <div id="background"></div>
+    <div
+      id="navbar"
+      class="d-flex justify-content-center homeButton banner-text"
+    ></div>
+    <h1 id="title">Crow's Blog</h1>
 
-  <div  id="navbar" class="d-flex justify-content-center homeButton banner-text">
+    <div id="blogPage">
+      <!-- Column of current post-->
 
-  </div>
-
-  <div class="container justify-content-center ">
-    <div class="postPage card shadow card-body blogText">
-      <h1 class="titoloBlogPost">How I updated the website</h4>
-        <h5 class="dataBlogPost">
-        </h5>
-        <div class="contenutoBlogPost">
-          <p>Recently I decided to try to give more importance to the Blog section of the site.
+      <div class="postPage card shadow card-body blogText">
+        <h1 class="titoloBlogPost">How I updated the website</h1>
+        <h5 class="dataBlogPost"></h5>
+        <div class="contenutoBlogPost"><p>Recently I decided to try to give more importance to the Blog section of the site.
 This is because, with all the free time I had, I have worked on several projects with the <code class="highlighter-rouge">Raspberry Pi 4</code>,<code class="highlighter-rouge"> React</code>, <code class="highlighter-rouge">Docker</code> and I’d like to talk about them in a few posts.</p>
 
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/oldStylePost.gif" class="img-fluid" alt="old Style Blog" max-width="600" max-height="338" /></p>
@@ -83,14 +127,118 @@ This also allows me to do things like collections of posts from a certain catego
 <p>Thanks for reading, see you next time!</p>
 
 <p><em>P.S : Yes, it is ok that the post cards are of different sizes, I made this design choice on purpose.</em></p>
+</div>
+      </div>
 
+      <!-- Column of recent posts-->
+
+      <div class="card shadow card-body otherPosts">
+        
+        <h1 class="titoloBlogPost">Recent Posts</h1>
+
+        <div class="otherPostsContainer overflow-auto">
+           
+          <div class="card card-body blogPost shadow overflow-auto">
+            <article>
+              <!-- <h2><a class ="stroke" href="/posts/generale/changes-to-the-site">How I updated the website</a></h2>-->
+              <h2 class="titoloBlogPost">How I updated the website</h2>
+              <div class="dataText">Published on : &nbsp</div>
+              <p class="dataPost">08 June 2020</p>
+              <div>Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web.</div>
+            </article>
+            <hr />
+            <footer class="lang-options">
+              
+              <em>View this post in :</em>
+              <ul>
+                
+                <li>
+                  <a
+                    href="/posts/generale/changes-to-the-site"
+                    rel="noopener"
+                    class="EN"
+                    title="View in EN"
+                  >
+                    <img
+                      class="flagIcon"
+                      src="/assets/data/EN-flag.svg"
+                      alt="EN flag"
+                    />
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    href="/posts/generale/modifiche-al-sito"
+                    rel="noopener"
+                    class="IT"
+                    title="View in IT"
+                  >
+                    <img
+                      class="flagIcon"
+                      src="/assets/data/IT-flag.svg"
+                      alt="IT flag"
+                    />
+                  </a>
+                </li>
+                
+              </ul>
+            </footer>
+          </div>
+          
+          <div class="card card-body blogPost shadow overflow-auto">
+            <article>
+              <!-- <h2><a class ="stroke" href="/posts/generale/introductions">Hello!</a></h2>-->
+              <h2 class="titoloBlogPost">Hello!</h2>
+              <div class="dataText">Published on : &nbsp</div>
+              <p class="dataPost">16 May 2020</p>
+              <div>First post on my first blog in what is also the first website that I deploy.</div>
+            </article>
+            <hr />
+            <footer class="lang-options">
+              
+              <em>View this post in :</em>
+              <ul>
+                
+                <li>
+                  <a
+                    href="/posts/generale/introductions"
+                    rel="noopener"
+                    class="EN"
+                    title="View in EN"
+                  >
+                    <img
+                      class="flagIcon"
+                      src="/assets/data/EN-flag.svg"
+                      alt="EN flag"
+                    />
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    href="/posts/generale/presentazione"
+                    rel="noopener"
+                    class="IT"
+                    title="View in IT"
+                  >
+                    <img
+                      class="flagIcon"
+                      src="/assets/data/IT-flag.svg"
+                      alt="IT flag"
+                    />
+                  </a>
+                </li>
+                
+              </ul>
+            </footer>
+          </div>
+          
         </div>
+        
+      </div>
     </div>
-  </div>
-  <!-- Flexslider Scripts -->
-	
-
-  
-</body>
-
+    <!-- Flexslider Scripts -->
+    
+  </body>
 </html>
