@@ -260,6 +260,12 @@
               {% assign postsCount = postsCount | plus: 1 %}
               {% endif %}
               {% endfor %}
+              <!--Checks if there are more than 5 posts avaiable show home page of blog-->
+              {% assign number_of_posts=site.posts | size %}
+              {% if number_of_posts > 10 %}
+              <!-- Shows link-->
+              {% endif %}
+
               {% if postsCount == 1 %}
             </div>
             {% endif %}

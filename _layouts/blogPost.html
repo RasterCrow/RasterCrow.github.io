@@ -99,12 +99,17 @@
   <body>
     <div id="background"></div>
 
-    <div
-      id="navbar"
-      class="d-flex justify-content-center homeButton banner-text"
-    ></div>
-    <h1 id="title">Crow's Blog</h1>
-
+    <div id="blogNav">
+      <a
+        href="{{ site.url }}"
+        rel="noopener"
+        class="homeIcon"
+        title="Go to Home"
+      >
+        <img src="{{ site.url }}/assets/data/home.svg" alt="home button" />
+      </a>
+      <h1 id="title">Crow's Blog</h1>
+    </div>
     <div id="blogPage">
       <!-- Column of current post-->
 
