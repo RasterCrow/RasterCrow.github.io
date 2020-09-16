@@ -23,10 +23,14 @@
       content="{{site.small_title}} - {{ page.title }}"
     />
     <meta property="og:description" content="{{page.description}}" />
+    {% if page.thumbnail_pagina %}
+    <meta property="og:image" content="{{page.thumbnail_pagina}}" />
+    {% else %}
     <meta
       property="og:image"
       content="{{- 'assets/data/alex.jpeg' | relative_url -}}"
     />
+    {% endif %}
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -36,10 +40,14 @@
       content="{{site.small_title}} - {{ page.title }}"
     />
     <meta property="twitter:description" content="{{page.description}}" />
+    {% if page.thumbnail_pagina %}
+    <meta property="twitter:image" content="{{page.thumbnail_pagina}}" />
+    {% else %}
     <meta
       property="twitter:image"
       content="{{- 'assets/data/alex.jpeg' | relative_url -}}"
     />
+    {% endif %}
 
     <link
       rel="icon"

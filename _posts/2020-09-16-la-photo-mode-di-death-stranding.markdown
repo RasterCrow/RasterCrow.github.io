@@ -7,6 +7,7 @@ lang-ref: La Photo Mode di Death Stranding
 description: Qualche parola sulla Photo Mode disponibile su Death Stranding.
 date: 2020-09-15 12:00:00 +0100
 categories: generale
+thumbnail_pagina: https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/stranding_thumb.webp
 carousel:
   - image: https://steamuserimages-a.akamaihd.net/ugc/1615059736349278416/18E8D656B5C853E5CF22CFEEA60E48521C213444/
   - image: https://steamuserimages-a.akamaihd.net/ugc/1615059970446504649/D770EB018EC7C627EDAF4830342977C51F3B21E9/

@@ -11,7 +11,7 @@ categories: generale
 
 To be honest I don't even know what to write, but I didn't want to leave the `Blog` section empty so here I am.
 
-Given all the projects I've started and never finished (I'm looking at you [The Witcher series][witcher-serie]{:target="\_blank"}) I don't feel like planning posts for the future, but if I one day  want to show some of my projects, talk about some games or movies or more simply to share my thoughts, I'll most likely make a post about it.
+Given all the projects I've started and never finished (I'm looking at you [The Witcher series][witcher-serie]{:target="\_blank"}) I don't feel like planning posts for the future, but if I one day want to show some of my projects, talk about some games or movies or more simply to share my thoughts, I'll most likely make a post about it.
 
 The idea of ​​the blog in the end is more of a `side-project` than anything else, my intention initially was to make a simple site that acts as a portfolio for me and I am quite happy with the result counting that, as already said before, it's the first time I've done something like this.
 
