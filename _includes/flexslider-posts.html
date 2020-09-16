@@ -1,19 +1,15 @@
-<!-- Carousel with images. to work it needs : 
-
-carousel:
-  - image: xxx
-  - image: xxx
-
-
-{% include flexslider-posts.html %}
--->
-
 {% if page.carousel %}
+
 <div class="flexslider">
   <ul class="slides">
     {% for slides in page.carousel %}
     <li>
-      <img src="{{ slides.image }}" />
+      <a href="{{ slides.image }}" target="_blank"
+        ><img
+          src="{{ slides.image }}"
+          style="margin-left: -5%; height: auto; width: 110%"
+        />
+      </a>
     </li>
     {% endfor %}
   </ul>

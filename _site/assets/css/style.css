@@ -426,10 +426,10 @@ a:link {
   width: 80%;
   height: auto;
 }
-
 .homeIcon:hover {
   background-color: rgba(111, 165, 226, 0.692);
 }
+
 @media screen and (max-width: 1025px) {
   #blogPage {
     flex-direction: column;
@@ -481,6 +481,25 @@ a:link {
   }
 }
 
+/* Blog utilities */
+.blogImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+.image-text-caption {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-size: 1rem;
+  margin-left: auto;
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  text-shadow: none;
+}
 /* carousel description */
 .carousel-caption {
   background-color: rgba(252, 252, 252, 0.8);
