@@ -7,7 +7,27 @@ var text = {
 		"blogAlert": "Unfortunately, most of the blog is and will be written in Italian... sorry international people.",
 		"info": "Hi, I'm Alex, better known as RasterCrow on the web. <br> I like to code, play games and watch movies. ",
 		"infoExpandButton": "More..",
-		"infoExpanded": "<br>Passionate about all that is digital.<br><br>In my spare time I delight in projects in many fields; from the development of Android applications (Studio / Flutter) to the creation and development of simple video games in Unity, UE or other indie engines.<br><br>I am interested in the field of artificial intelligence. I had the opportunity to work with services such as Tensorflow and IBM Power AI, for the training of neural networks to be used in object detection services.<br>Thanks to this knowledge I have also implemented various services with the use of a Raspberry in the home automation sector (Home Surveillance, etc. ..).<br><br>I avidly follow the PC hardware sector, both at the market level (always updated with news from the big manufacturers), and at a personal level. I work with the hardware, going from the assembly and management of simple PCs, to the more enthusiast side of it with overclocking and more high-end hardware.<br><br>I also follow with interest cloud services, mainly AWS. I have worked with products like S3 and Lambda, with which I have published several Skills for Alexa devices.<br><br>Big fan of videogames; I actively follow the market and newest technologies. <br><br>Outside the IT world, I’m a simple guy, I like mother-nature as much as I like my mother-board. ",
+		"infoExpanded": `<br><h3 style="color:rgb(99, 200, 231)">Software Languages:</h3><div style='display:flex'><div style="width:400px"><p>Some of the programming languages that I feel I have a good understanding about.<br>I may know how to use other languages, but I can't garantee I understand them completely.</p></div><div><ul><li>C</li><li>Java</li><li>Python</li><li>Javascript, Typescript</li><li>PHP</li><li>SQL ( Postgress MySQL ), NoSQL ( Mongo )</li></ul></div></div>
+		
+		<h3 style="color:rgb(99, 200, 231)">Game Development:</h3><div style='display:flex'><div style="width:400px"><p>I don't really have much experience with game development, but I'm an hardcore gamer and huge follower of the latest tecnhologies in game development.</p></div><div><ul><li>Unity</li><li>Unreal Engine</li><li>Construct2</li><li>Godot</li><li>GameMaker</li></ul></div></div>
+
+		<h3 style="color:rgb(99, 200, 231)">Mobile Development:</h3><div style='display:flex'><div style="width:400px"><p>I have made a couple of simple apps in the past, most of them from University projects (available on my Github), but also for personal use.<br>I still haven't had the chance to develop for iOS devices, but I plan to in the future.</p></div><div><ul><li>Android Studio</li><li>React Native, Flutter</li></ul></div></div>
+
+		<h3 style="color:rgb(99, 200, 231)">Web Development:</h3><div style='display:flex'><div style="width:400px"><p>At first I didn't really like Web Development, I'm more of a back-end guy, but still learning about React and Webapps I started changing my idea about them.<br>I still hate the front-end side of it though.</p></div><div><ul><li>HTMl,CSS,JS</li><li>React (and a little Angular, Vue.js)</li><li>Php</li><li>Some Jekyll and Wordpress</li></ul></div></div>
+		
+			<h3 style="color:rgb(99, 200, 231)">AI Research:</h3><div style='display:flex'><div style="width:400px"><p>I also had the opportunity to get my thesis done in this area, and worked on designing, traning, inference and deploying a Neural Network to be used for real-time object detection on a Raspberry Pi + Intel Neural Compute Stick. It was fun.</p></div><div><ul><li>PowerAi Vision</li><li>Tensorflow, Openvino</li></ul></div></div>
+
+		<h3 style="color:rgb(99, 200, 231)">Other Tools & Technology:</h3><p>This section is more of a mix of things I used on my path to become a Software Developer.<br>There are too many softwares and technologies to list but here are some of the most important ones.</p>
+		<div style='display:flex'>
+		<ul><h4 style="color:rgb(99, 200, 231)">Productivity Tools</h4><li>Git</li><li>Slack</li><li>Trello, Asana</li><li>IntelliJ IDEs</li></ul>
+		<ul><h4 style="color:rgb(99, 200, 231)">Hardware Technologies</h4><li>PC building, overclocking</li><li>Raspberry IOT projects</li><li>Arduino</li></ul>
+		</div>
+		<div style='display:flex'>
+		<ul><h4 style="color:rgb(99, 200, 231)">Cloud Technologies</h4><li>AWS, Azure, Google Cloud</li><li>Firebase</li><li>Heroku</li></ul>
+		<ul><h4 style="color:rgb(99, 200, 231)">Graphic and Video Design</h4><li>Photoshop, Photopea</li><li>Premiere, Sony Vegas</li></ul>
+		</div>
+		<p> and many more...</p>
+		</div>`,
 		"portfolio": {
 			"summary": 'Some of the projects I worked on in my free time. <br> You can find more of them on <a href="https://github.com/RasterCrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a> or on my Blog.',
 			"slide1": {
@@ -40,7 +60,27 @@ var text = {
 		"blogAlert": "",
 		"info": "Ciao, mi chiamo Alex, ma sul web sono RasterCrow. <br> Programmo, videogioco e guardo molti film.",
 		"infoExpandButton": "Espandi...",
-		"infoExpanded": "<br>Appassionato di tutto ciò che è digitale.<br><br>Nel tempo libero mi diletto con progetti in molteplici campi; dallo sviluppo di applicazioni Android ( <b>Studio/Flutter</b> ) alla ideazione e sviluppo di semplici videogiochi in Unity, UE o altri engine indie.<br><br>Mi interessa il campo dell'intelligenza artificiale, ho avuto modo di lavorare con servizi come Tensorflow e IBM Power AI, per l'allenamento di reti neurali da usare nel campo dei servizi di object detection.<br>Grazie a queste conoscenze ho inoltro implementato diversi servizi con l'utilizzo di un Raspberry nel settore della domotica (Home Surveillance, ecc..).<br><br>Seguo avidamente il settore hardware PC, sia a livello di mercato (sempre aggiornato con le novità dei grandi produttori), che a livello personale. Lavoro con l'hardware delle macchine, a partire dal montaggio e gestione di semplici pc, per arrivare al lato più enthusiast con overclock e hardware più high-end. <br><br>Seguo inoltre con interesse ciò che riguarda i servizi cloud, principalmente AWS. Ho lavorato con prodotti tra cui S3 e Lambda, con i quali ho pubblicato diverse Skill per i dispositivi Alexa.<br><br>Per finire, sono un grande appassionato di videogiochi, ne seguo attivamente il mercato e le tecnologie di sviluppo.<br><br>Al di fuori dal campo dell'IT sono un ragazzo semplice, mi piace madre-natura tanto quanto la scheda-madre.",
+		"infoExpanded": `<br><h3 style="color:rgb(99, 200, 231)">Linguaggi di programmazione:</h3><div style='display:flex'><div style="width:400px"><p>Alcuni dei linguaggi che sento di conoscere abbastanza bene.<br>Ne avrò usati altri in passato (C#, C++), ma non mi sento di definirmi capace a svilupparci al meglio.</p></div><div><ul><li>C</li><li>Java</li><li>Python</li><li>Javascript, Typescript</li><li>PHP</li><li>SQL ( Postgress MySQL ), NoSQL ( Mongo )</li></ul></div></div>
+		
+		<h3 style="color:rgb(99, 200, 231)">Sviluppo Videogiochi</h3><div style='display:flex'><div style="width:400px"><p>Non ho molta esperienza nel settore, ma sono un avido videogiocatore e seguo le ultime novità in ambito di tecnologie di sviluppo.</p></div><div><ul><li>Unity</li><li>Unreal Engine</li><li>Construct2</li><li>Godot</li><li>GameMaker</li></ul></div></div>
+
+		<h3 style="color:rgb(99, 200, 231)">Sviluppo Mobile:</h3><div style='display:flex'><div style="width:400px"><p>In passato ho sviluppato diverse applicazioni, molte erano progetti dell Università (disponibili su Github), ma altre erano per uso personale.<br>Non ho ancora avuto modo di sviluppare per dispositivi iOS, ma in futuro punto a farlo.</p></div><div><ul><li>Android Studio</li><li>React Native, Flutter</li></ul></div></div>
+
+		<h3 style="color:rgb(99, 200, 231)">Sviluppo Web:</h3><div style='display:flex'><div style="width:400px"><p>Inizialmente non mi piaceva molto sviluppare per Web, sono più un ragazzo da back-end, ma scoprendo React e in generale il mondo delle Webapp ho un po' cambiato idea.<br>Disprezzo ancora sviluppare front-end.</p></div><div><ul><li>HTMl,CSS,JS</li><li>React (un po' di Angular, Vue.js)</li><li>Php</li><li>Qualcosa di Jekyll e Wordpress</li></ul></div></div>
+		
+			<h3 style="color:rgb(99, 200, 231)">Ricerca IA:</h3><div style='display:flex'><div style="width:400px"><p>Ho avuto l'opportunità di fare la mia tesi su un progetto inerente all IA, in particolare il design, allenamento, inferenza e distribuzione di un modello di rete neurale usato per la object detection in tempo reale su dispositivo Raspberry + Intel Neural Compute Stick. E' stato divertente.</p></div><div><ul><li>PowerAi Vision</li><li>Tensorflow, Openvino</li></ul></div></div>
+
+		<h3 style="color:rgb(99, 200, 231)">Other Tools & Technology:</h3><p>Ci sono troppi software e tecnologie che usato nel mio percorso di apprendimento, ma ho provato a metterne un paio qui sotto.</p>
+		<div style='display:flex'>
+		<ul><h4 style="color:rgb(99, 200, 231)">Strumenti Utili</h4><li>Git</li><li>Slack</li><li>Trello, Asana</li><li>IntelliJ IDEs</li></ul>
+		<ul><h4 style="color:rgb(99, 200, 231)">Tecnologie Hardware</h4><li>PC montaggio, overclocking</li><li>Raspberry progetti IOT</li><li>Arduino</li></ul>
+		</div>
+		<div style='display:flex'>
+		<ul><h4 style="color:rgb(99, 200, 231)">Tecnologie Cloud</h4><li>AWS, Azure, Google Cloud</li><li>Firebase</li><li>Heroku</li></ul>
+		<ul><h4 style="color:rgb(99, 200, 231)">Video e Foto Editing</h4><li>Photoshop, Photopea</li><li>Premiere, Sony Vegas</li></ul>
+		</div>
+		<p> e tanti altri...</p>
+		</div>`,
 		"portfolio": {
 			"summary": 'Alcuni dei progetti su cui ho lavorato nel tempo libero. <br> Puoi trovarne altri sul mio profilo <a href="https://github.com/RasterCrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a> o sul Blog.',
 			"slide1": {
