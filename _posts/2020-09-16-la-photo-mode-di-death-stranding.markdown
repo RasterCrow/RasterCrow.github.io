@@ -24,7 +24,7 @@ carousel:
 
 Recentemente ho acquistato `Death Stranding` su Steam, l'ultima fatica di `Hideo Kojima`.
 
-Per chi non lo conoscesse Death Stranding è un videogioco molto particolare, valorizza molto il viaggio e l'esplorazione da parte del videogiocatore. E' dunque logico che ci sia stato un lavoro enorme per cercare di rendere la mappa di gioco il più interessante e aesteticamente piacevole da navigare.
+Per chi non lo conoscesse Death Stranding è un videogioco molto particolare, valorizza molto il viaggio e l'esplorazione da parte del videogiocatore. E' dunque logico che ci sia stato un lavoro enorme per cercare di rendere la mappa di gioco il più interessante da navigare e aesteticamente piacevole all'occhio.
 Ha sicuramente aiutato avere a disposizione il `Decima Engine`, usato in precedenza con Horizon Zero Dawn, da poco uscito sullo [Steam Store](https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/), che ha permesso ai ragazzi di Kojima Productions di spingere l'hardware della PS4 al massimo delle sue capacità con modelli ingame di altissima qualità e paesaggi che sembrano reali.
 
 <div style="position: relative;
@@ -33,14 +33,13 @@ Ha sicuramente aiutato avere a disposizione il `Decima Engine`, usato in precede
   >
 <img class="blogImage" src = "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/ss_9db45aa04e8c8b5043b479f42ed36296bfc3a918.1920x1080.jpg?t=1596817204" alt = "horizon zero dawn picture" />
 <div class="image-text-caption">
-  Horizon Zero Dawn powered by the Decima Engine
+  Horizon Zero Dawn sviluppato con il Decima Engine
   </div>
 </div>
 
-L'inclusione quindi di una modalità foto ha permesso quindi a moltissimi amanti del titolo e della fotografia di
-divertirsi e cercare di catturare i momenti più belli che questo titolo ha da offrire.
+L'inclusione quindi di una modalità foto ha permesso quindi a moltissimi amanti del titolo e della fotografia di divertirsi e cercare di catturare i momenti più belli che questo titolo ha da offrire.
 
-Parlando della Photo Mode in sè, il fattore più limitante è essere ancorati come perno per la videocamera al nostro personaggio, che comunque è nascondibile, ma avrei preferito un sistema più alla `Shadow of the Tomb Raider` che permetteva movimento libero entro una certa distanza dal personaggio.
+Parlando della Photo Mode in sè, il fattore più limitante che ho notato è ;'essere ancorati come perno per la videocamera al nostro personaggio, che comunque è nascondibile, ma avrei preferito un sistema più alla `Shadow of the Tomb Raider` che permetteva movimento libero entro una certa distanza dal personaggio di Lara Croft.
 Inoltre, piccola chicca, per chi non lo sapesse è possibile attivare la modalità anche durante le cut-scene di gioco, venendo limitati ovviamente dal muovere la videocamera.
 
 Ci sono comunque diverse opzioni come la `profondità di campo`, la `lente grandangolare`, le `pose` di Sam e del BB e anche dei `filtri` preapplicati, che se usate con un pizzico di fantasia permettono al videogiocatore di scattare fotografie di tutto rispetto.

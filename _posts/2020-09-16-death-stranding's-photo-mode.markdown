@@ -24,9 +24,9 @@ carousel:
 
 I recently purchased `Death Stranding` on the Steam store, the latest work from `Hideo Kojima`.
 
-For those unfamiliar with the game, Death Stranding is a very peculiar videogame, it has the journey of the player at its heart.\
-It was therefore very important design the map in such a way,to push the player to explore and try new things while still being interactable and aesthetically pleasing to the eye.\
-It obviously helped the team at Kojima Productions to have used the `Decima Engine`, previously used for `Horizon Zero Dawn`, which recently came out on the [Steam Store](https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/), that allowed them to really push the hardware capabilities of the PS4 with really advanced character models and landscape that look like real-life pictures.
+For those unfamiliar with the game, Death Stranding is a very peculiar videogame with the journey of the player at its heart.\
+It was therefore very important to design the map in such a way to push the player to explore and try new things while still being interactable and aesthetically pleasing to the eye.\
+It obviously helped the team at Kojima Productions to have the `Decima Engine`, previously used for `Horizon Zero Dawn`, which recently came out on the [Steam Store](https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/), that allowed them to really push the hardware capabilities of the PS4 with advanced character models and landscapes that look like real-life pictures.
 
 <div style="position: relative;
   text-align: center;
@@ -34,18 +34,18 @@ It obviously helped the team at Kojima Productions to have used the `Decima Engi
   >
 <img class="blogImage" src = "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/ss_9db45aa04e8c8b5043b479f42ed36296bfc3a918.1920x1080.jpg?t=1596817204" alt = "horizon zero dawn picture" />
 <div class="image-text-caption">
-  Horizon Zero Dawn sviluppato con il Decima Engine
+  Horizon Zero Dawn powered by the Decima Engine
   </div>
 </div>
 
-The inclusion of a Photo Mode has therefore allowed many fans of the title and also real photographers to have fun and try to capture the best moments this game has to offer.
+The inclusion of a Photo Mode has therefore allowed many fans of the title and also real photographers to have fun trying to capture the best moments this game has to offer.
 
-Speaking of the Photo Mode per se, the most limiting factor I encountered must be the anchored camera around the player, which can be hidden if you want to capture only landscapes, but still, I would have preferred something more like the `Shadow of the Tomb Raider` camera mode where you could move anywhere around the Lara Croft's character within a certain distance.\
+Speaking of the Photo Mode per se, the most limiting factor I encountered must be the anchored camera around the player, which can be hidden if you want to capture only landscapes, but still, I would have preferred something more like the `Shadow of the Tomb Raider` photo mode where you could move anywhere around Lara Croft's character within a certain distance.\
 Also, a little gem, you can even activate the mode during game cutscenes but you obviously can't move the camera around.
 
-Even with these limitation, there are however a number of options that can be used, such as settings for the `depth of field`, `wide angle` camera, `poses` for Sam and BB and also some pre-made `filters`, which if used with some imagination it allows players to take some very nice pictures.
+Even with these limitation, there are however a number of options that can be used such as settings for the `depth of field`, `wide angle` camera, `poses` for Sam and BB and also some pre-made `filters`, which with some imagination allows players to take some very nice pictures.
 
-During my trip through America I had the opportunity to use this mode several times, so here are some pictures I took.
+During my trip through America I had the opportunity to use this mode several times so here are some pictures I took.
 
 {% include flexslider-posts.html %}
 
