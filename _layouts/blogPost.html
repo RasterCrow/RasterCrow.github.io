@@ -33,18 +33,14 @@
     {% endif %}
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{site.url}}{{ page.url }}" />
-    <meta
-      property="twitter:title"
-      content="{{site.small_title}} - {{ page.title }}"
-    />
+    <meta property="twitter:title" content="{{site.small_title}} - {{ page.title }}"/>
     <meta property="twitter:description" content="{{page.description}}" />
     {% if page.thumbnail_pagina %}
-    <meta property="twitter:image" content="{{page.thumbnail_pagina}}" />
+    <meta property="twitter:card" content="{{page.thumbnail_pagina}}" />
     {% else %}
     <meta
-      property="twitter:image"
+      property="twitter:card"
       content="{{- 'assets/data/alex.jpeg' | relative_url -}}"
     />
     {% endif %}
