@@ -391,6 +391,28 @@ a:link {
   text-decoration: none;
 }
 
+.lang-options-topPage {
+  text-align: end;
+  -webkit-text-stroke: 0.5px black !important;
+  text-shadow: 0.8px 1px #242323 !important;
+  color: white;
+}
+.lang-options-topPage ul {
+  padding-inline-start: 10px !important;
+  display: inline;
+  margin: auto;
+  list-style: none;
+}
+.lang-options-topPage li {
+  display: inline;
+  margin: 10px;
+}
+.lang-options-topPage li a {
+  text-decoration: none;
+}
+.lang-options-topPage li a {
+  text-decoration: none;
+}
 .flagIcon {
   width: 30px;
   height: 30px;

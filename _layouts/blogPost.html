@@ -119,8 +119,40 @@
       <!-- Column of current post-->
 
       <div class="postPage card shadow card-body blogText">
+        <div class="lang-options-topPage" >
+
+          {% assign thisPost=site.posts | where:"lang-ref", page.lang-ref |
+          sort: 'lang' %}
+          {% if page.lang == "EN" %}
+          <em>View this post in :</em>
+          {% elsif page.lang == "IT" %}
+          <em>Leggi il post in :</em>
+          {% endif %}
+          <ul>
+            {% for postlang in thisPost %}
+            <li>
+              <a
+                href="{{ site.base-url }}{{ postlang.url }}"
+                rel="noopener"
+                class="{{ postlang.lang }}"
+                title="View in {{postlang.lang}}"
+              >
+                <img
+                  class="flagIcon"
+                  src="{{ site.base-url }}/assets/data/{{ postlang.lang }}-flag.svg"
+                  alt="{{ postlang.lang }} flag"
+                />
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+        <br>
         <h1 class="titoloBlogPost">{{ page.title }}</h1>
-        <h5 class="dataBlogPost">{{ post.date | date_to_long_string}}</h5>
+        <h5 class="dataBlogPost">{{ page.date | date_to_long_string}}
+        </h5>
+        
         <div class="contenutoBlogPost">{{content}}</div>
       </div>
 
@@ -186,7 +218,7 @@
             <footer class="lang-options">
               {% assign postslang=site.posts | where:"lang-ref", post.lang-ref |
               sort: 'lang' %}
-              <em>View this post in :</em>
+              <em>Leggi il post in :</em>
               <ul>
                 {% for postlang in postslang %}
                 <li>

@@ -391,6 +391,28 @@ a:link {
   text-decoration: none;
 }
 
+.lang-options-topPage {
+  text-align: end;
+  -webkit-text-stroke: 0.5px black !important;
+  text-shadow: 0.8px 1px #242323 !important;
+  color: white;
+}
+.lang-options-topPage ul {
+  padding-inline-start: 10px !important;
+  display: inline;
+  margin: auto;
+  list-style: none;
+}
+.lang-options-topPage li {
+  display: inline;
+  margin: 10px;
+}
+.lang-options-topPage li a {
+  text-decoration: none;
+}
+.lang-options-topPage li a {
+  text-decoration: none;
+}
 .flagIcon {
   width: 30px;
   height: 30px;
@@ -484,27 +506,22 @@ a:link {
 /* Blog utilities */
 .blogImage {
   display: block;
-
+  margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
-  margin-bottom: 25px;
-
-  width: 105%;
-  margin-left: -2.5%;
   height: auto;
+  width: 100%;
 }
 .image-text-caption {
   position: absolute;
   bottom: 5%;
   left: 5%;
-  font-size: 1vw;
+  font-size: 1rem;
   margin-left: auto;
   text-decoration: none;
   color: rgb(209, 209, 209);
   -webkit-text-stroke: 0.1px rgb(0, 0, 0);
   text-shadow: none;
 }
-
 /* carousel description */
 .carousel-caption {
   background-color: rgba(252, 252, 252, 0.8);
