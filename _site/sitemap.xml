@@ -28,7 +28,11 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/assets/Stefan%20Alexandru%20Andries%20-%20Resume.pdf</loc>
-<lastmod>2020-09-14T15:02:33+02:00</lastmod>
+<loc>http://localhost:4000/assets/Stefan%20Alexandru%20Andries%20-%20CV-2020-ENG.pdf</loc>
+<lastmod>2020-10-01T22:11:17+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/Stefan%20Alexandru%20Andries%20-%20CV-2020-ITA.pdf</loc>
+<lastmod>2020-10-01T22:10:13+02:00</lastmod>
 </url>
 </urlset>

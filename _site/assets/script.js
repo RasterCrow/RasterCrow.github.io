@@ -2,7 +2,7 @@ var text = {
 	"en": {
 		"contacts": {
 			"title": "Contacts",
-			"summary": 'If you want to talk with me, you can find here : <div id="contactList"><br><a href="https://github.com/RasterCrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a> <br> <a href="https://it.linkedin.com/in/alex-andries" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/Linkedin-Icon.jpg" alt="linkedin icon"> LinkedIn</a> <br> <a href="https://steamcommunity.com/id/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/steam-icon.png" alt="steam icon"> Steam</a>  <br> <a href="https://trakt.tv/users/rastercrow " rel="noopener" target="_blank"><img class="link_icon" src="assets/data/trakt-icon.png" alt="trakt icon"> Trakt </a> <br> <a href="https://twitter.com/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/twitter-icon.png" alt="twitter icon"> Twitter</a> <br> <a href="mailto: alexsandries@outlook.com"><img class="link_icon" src="assets/data/mail-icon.png" alt="mail icon"> Mail</a> ( alexsandries@outlook.com )<br> <a href="assets/Stefan Alexandru Andries - Resume.pdf" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/cv-icon.png" alt="cv icon"> CV</a> </div>'
+			"summary": 'If you want to talk with me, you can find here : <div id="contactList"><br><a href="https://github.com/RasterCrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a> <br> <a href="https://it.linkedin.com/in/alex-andries" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/Linkedin-Icon.jpg" alt="linkedin icon"> LinkedIn</a> <br> <a href="https://steamcommunity.com/id/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/steam-icon.png" alt="steam icon"> Steam</a>  <br> <a href="https://trakt.tv/users/rastercrow " rel="noopener" target="_blank"><img class="link_icon" src="assets/data/trakt-icon.png" alt="trakt icon"> Trakt </a> <br> <a href="https://twitter.com/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/twitter-icon.png" alt="twitter icon"> Twitter</a> <br> <a href="mailto: alexsandries@outlook.com"><img class="link_icon" src="assets/data/mail-icon.png" alt="mail icon"> Mail</a> ( alexsandries@outlook.com )<br> <a href="assets/Stefan Alexandru Andries - CV-2020-ITA.pdf" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/cv-icon.png" alt="cv icon"> CV (ITA)</a> <br> <a href="assets/Stefan Alexandru Andries - CV-2020-ENG.pdf" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/cv-icon.png" alt="cv icon"> CV (ENG)</a> </div>'
 		},
 		"blogAlert": "Unfortunately, most of the blog is and will be written in Italian... sorry international people.",
 		"info": "Hi, I'm Alex, better known as RasterCrow on the web. <br> I like to code, play games and watch movies. ",
@@ -49,13 +49,17 @@ var text = {
 			"slide5": {
 				"title": "Dario Moccia - Episode Tracker / Chrome Extension",
 				"desc": `Chrome extensions that keeps track of how many times the user watched certain series from the italian youtube Dario Moccia. You can find out more about on <a href="https://github.com/RasterCrow/DarioMocciaTracker-chrome" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a>`
+			},
+			"slide6": {
+				"title": "Wishlister - WebApp",
+				"desc": `Wishlister lets you create a wishlist and share it with your friends or family. <br>It' my first big and public project and it's only available in italian for now...`
 			}
 		}
 	},
 	"it": {
 		"contacts": {
 			"title": "Contacts",
-			"summary": 'Se vuoi parlare con me puoi trovarmi su queste piattaforme : <div id="contactList"><br><a href="https://github.com/RasterCrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a> <br> <a href="https://it.linkedin.com/in/alex-andries" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/Linkedin-Icon.jpg" alt="linkedin icon"> LinkedIn</a> <br> <a href="https://steamcommunity.com/id/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/steam-icon.png" alt="steam icon"> Steam</a>  <br> <a href="https://trakt.tv/users/rastercrow " rel="noopener" target="_blank"><img class="link_icon" src="assets/data/trakt-icon.png" alt="trakt icon"> Trakt </a> <br> <a href="https://twitter.com/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/twitter-icon.png" alt="twitter icon"> Twitter</a> <br> <a href="mailto: alexsandries@outlook.com"><img class="link_icon" src="assets/data/mail-icon.png" alt="mail icon"> Mail</a> ( alexsandries@outlook.com )<br> <a href="assets/Stefan Alexandru Andries - Resume.pdf" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/cv-icon.png" alt="cv icon"> CV</a> </div>'
+			"summary": 'Se vuoi parlare con me puoi trovarmi su queste piattaforme : <div id="contactList"><br><a href="https://github.com/RasterCrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a> <br> <a href="https://it.linkedin.com/in/alex-andries" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/Linkedin-Icon.jpg" alt="linkedin icon"> LinkedIn</a> <br> <a href="https://steamcommunity.com/id/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/steam-icon.png" alt="steam icon"> Steam</a>  <br> <a href="https://trakt.tv/users/rastercrow " rel="noopener" target="_blank"><img class="link_icon" src="assets/data/trakt-icon.png" alt="trakt icon"> Trakt </a> <br> <a href="https://twitter.com/rastercrow" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/twitter-icon.png" alt="twitter icon"> Twitter</a> <br> <a href="mailto: alexsandries@outlook.com"><img class="link_icon" src="assets/data/mail-icon.png" alt="mail icon"> Mail</a> ( alexsandries@outlook.com )<br> <a href="assets/Stefan Alexandru Andries - CV-2020-ITA.pdf" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/cv-icon.png" alt="cv icon"> CV (ITA)</a> <br> <a href="assets/Stefan Alexandru Andries - CV-2020-ENG.pdf" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/cv-icon.png" alt="cv icon"> CV (ENG)</a> </div>'
 		},
 		"blogAlert": "",
 		"info": "Ciao, mi chiamo Alex, ma sul web sono RasterCrow. <br> Programmo, videogioco e guardo molti film.",
@@ -102,6 +106,10 @@ var text = {
 			"slide5": {
 				"title": "Dario Moccia - Episode Tracker / Estensione per Chrome",
 				"desc": `Essendo un fan dello Youtuber <a href="https://www.youtube.com/user/DarioMocciaChannel" rel="noopener" target="_blank"> Dario Moccia </a> ho dovuto per forza sviluppare questa estensione per Google Chrome che tiene traccia in automatico di quante volte l'utente ha visto gli episodi delle sue serie principali. <br> Per saperne di piu andate sulla repository di <a href="https://github.com/RasterCrow/DarioMocciaTracker-chrome" rel="noopener" target="_blank"><img class="link_icon" src="assets/data/github-icon.png" alt="github icon"> Github</a>`
+			},
+			"slide6": {
+				"title": "Wishlister - WebApp",
+				"desc": `WishLister permette di creare facilmente una lista dei desideri condivisibili con amici e parenti. <br>E' il primo grosso progetto pubblico che ho sviluppato ed è ancora in lavorazione...`
 			}
 		}
 	}
@@ -216,6 +224,9 @@ $(document).ready(function () {
 		document.getElementById("slide4Text").innerHTML = text[language].portfolio.slide4.desc;
 		document.getElementById("slide5Title").innerHTML = text[language].portfolio.slide5.title;
 		document.getElementById("slide5Text").innerHTML = text[language].portfolio.slide5.desc;
+		document.getElementById("slide6Title").innerHTML = text[language].portfolio.slide6.title;
+		document.getElementById("slide6Text").innerHTML = text[language].portfolio.slide6.desc;
+
 		$('#contactsTitle').text(text[language].contacts.title);
 		document.getElementById("contactsText").innerHTML = text[language].contacts.summary;
 		document.getElementById("moreinfoButton").innerHTML = text[language].infoExpandButton;
