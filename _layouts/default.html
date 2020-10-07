@@ -107,6 +107,7 @@
         </div>
         <div class="collapse" id="collapsePortfolio">
           <div class="card shadow card-body ">
+            <h2 class="cardTitle">Portfolio</h3>
             <div id="carouselPortfolio" class="carousel slide " data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
@@ -194,12 +195,14 @@
         </div>
         <div class="collapse indent" id="collapseContacts">
           <div class="card shadow card-body">
+            <h2 class="cardTitle">Contacts</h3>
             <p id="contactsText" class="card-inner-text">
             </p>
           </div>
         </div>
         <div class="collapse indent" id="collapseBlog">
           <div class="card shadow card-body">
+            <h2 class="cardTitle">Blog</h3>
             <div class="container-fluid postsContainer overflow-auto">
 
               {% assign allPosts=site.posts | where:"lang", "EN" %}

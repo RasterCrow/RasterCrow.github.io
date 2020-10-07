@@ -172,7 +172,7 @@ $(document).ready(function () {
 	//scroll into the collapse clicked
 	$(document).on('shown.bs.collapse', function (event) {
 		//console.log(event);
-		event.target.scrollIntoView({ behavior: 'smooth', block: 'center' })
+		event.target.scrollIntoView({ behavior: 'smooth', block: 'start' })
 	});
 
 	//more info button  for info section
