@@ -11,35 +11,29 @@
     <meta name="keywords" content="alex andries, portfolio, blog, alexandru stefan andries, rastercrow, raster, rasterin, hardware, raspberry, videogames, videogiochi, guide pc" />
 
     <!-- Primary Meta Tags -->
-    <title>Crow's Nest - Come ho modificato il sito.</title>
-    <meta name="title" content="Crow's Nest - Come ho modificato il sito." />
-    <meta name="description" content="Recentemente ho deciso di modificare ancora la sezione blog, nonchè diversi metadata dal sito, in modo da renderlo più semplice da trovare, mentre si naviga nel web." />
+    <title>Crow's Nest - Geo Locator, a Geoguessr clone</title>
+    <meta name="title" content="Crow's Nest - Geo Locator, a Geoguessr clone" />
+    <meta name="description" content="I've made a Geoguessr clone for private use." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://localhost:4000/posts/generale/modifiche-al-sito" />
+    <meta property="og:url" content="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone" />
     <meta
       property="og:title"
-      content="Crow's Nest - Come ho modificato il sito."
+      content="Crow's Nest - Geo Locator, a Geoguessr clone"
     />
-    <meta property="og:description" content="Recentemente ho deciso di modificare ancora la sezione blog, nonchè diversi metadata dal sito, in modo da renderlo più semplice da trovare, mentre si naviga nel web." />
+    <meta property="og:description" content="I've made a Geoguessr clone for private use." />
     
-    <meta
-      property="og:image"
-      content="https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/thumbnail-home.webp"
-    />
+    <meta property="og:image" content="https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true" />
     
 
     <!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image"></meta>
-    <meta name="twitter:url" content="http://localhost:4000/posts/generale/modifiche-al-sito" />
-    <meta name="twitter:title" content="Crow's Nest - Come ho modificato il sito."/>
-    <meta name="twitter:description" content="Recentemente ho deciso di modificare ancora la sezione blog, nonchè diversi metadata dal sito, in modo da renderlo più semplice da trovare, mentre si naviga nel web." />
+    <meta name="twitter:url" content="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone" />
+    <meta name="twitter:title" content="Crow's Nest - Geo Locator, a Geoguessr clone"/>
+    <meta name="twitter:description" content="I've made a Geoguessr clone for private use." />
     
-    <meta
-      name="twitter:image"
-      content="https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/thumbnail-home.webp"
-    />
+    <meta name="twitter:image" content="https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true" />
     
 
     <link
@@ -119,13 +113,13 @@
 
           
           
-          <em>Leggi il post in :</em>
+          <em>View this post in :</em>
           
           <ul>
             
             <li>
               <a
-                href="/posts/generale/changes-to-the-site"
+                href="/posts/projects/Geo-Locator,-a-Geoguessr-clone"
                 rel="noopener"
                 class="EN"
                 title="View in EN"
@@ -140,7 +134,7 @@
             
             <li>
               <a
-                href="/posts/generale/modifiche-al-sito"
+                href="/posts/projects/Geo-Locator,-un-clone-di-Geoguessr"
                 rel="noopener"
                 class="IT"
                 title="View in IT"
@@ -157,27 +151,110 @@
 
         </div>
         <br>
-        <h1 class="titoloBlogPost">Come ho modificato il sito.</h1>
-        <h5 class="dataBlogPost">08 June 2020
+        <h1 class="titoloBlogPost">Geo Locator, a Geoguessr clone</h1>
+        <h5 class="dataBlogPost">11 January 2021
         </h5>
         
-        <div class="contenutoBlogPost"><p>Recentemente ho deciso di provare a dare maggiore importanza alla sezione Blog del sito.
-Questo perche, con tutto il tempo libero che ho avuto, ho lavorato su parecchi progetti con il <code class="highlighter-rouge">Raspberry Pi 4</code>, <code class="highlighter-rouge">React</code>, <code class="highlighter-rouge">Docker</code> e mi piacerebbe parlarne in qualche post.</p>
+        <div class="contenutoBlogPost"><h1 id="geo-locator">Geo Locator</h1>
 
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/oldStylePost.gif" class="img-fluid" alt="old Style Blog" max-width="600" max-height="338" /></p>
+<div style="position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;">
+  <img class="blogImage" src="https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true" alt="header picture of geo locator" />
+</div>
 
-<p>Col vecchio sistema di blog, visibile qui sopra, era comodo e veloce poter passare da un post all’altro, in quanto il click su uno di essi non ti reindirizzava a una pagina apposita, ma semplicemente apriva una scheda popup con il contenuto del post.
-Questo sistema mi piaceva e mi piace ancora molto, perche permetteva all’utente di avere tutto il conenuto nella stessa pagina, come una web app.
-Ma a causa del modo in cui viene implementato, non è possibile postare link diretti a quel post e inoltre neanche una ricerca su internet con informazioni del post mi avrebbe dato nessun risultato.
-Ho quindi deciso, anziche caricare il post nel modal direttamente nella pagina, di rimandare l’utente su una pagina apposta, come in tutti i normali blog.
-Questo mi permette anche di fare cose come raccolte dei post di una determinata categoria, o di un determinato mese. ( Non disponibile al momento ).</p>
+<p>In the last few days my friends and I wanted to play <a href="https://www.geoguessr.com/">Geoguessr</a> again.
+However, since the site has grown so much in recent years, the developers had to make a subscription for the service, to keep it up.
+Let’s be real, € 3 a month is not a lot, but since I’m only playing it a few times a week, I didn’t like the idea of paying for the subscription.</p>
 
-<p>Detto ciò, con questo post volevo solo dimostrare il mio intento nel cercare di migliorare questa sezione e provare a dargli più importanza in futuro.
-So che usando servizi come <code class="highlighter-rouge">WordPress</code> o <code class="highlighter-rouge">Wiz</code> avrei potuto fare tutto questo molto più velocemente, ma volevo fare qualcosa di diverso e cercare di gestire il tutto da me.</p>
+<p>So I thought I’d try to create a clone, just for private use.
+And here it is, <a href="https://github.com/RasterCrow/Geo-Locator">Geo Locator</a>.</p>
 
-<p>Grazie per la lettura, alla prossima!</p>
+<h1 id="what-is-it">What is it?</h1>
 
-<p><em>P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design.</em></p>
+<p>For those unfamiliar with it, Geoguessr is a multiplayer but also singleplayer game that throws you into a random place in the world and by using Google Street View you have to guess where you are.
+The closer your answer ( you set a marker on Google Maps ), the more points you earn.
+At the end of the rounds, the person with the most points wins.</p>
+
+<h1 id="how-was-it-made">How was it made?</h1>
+
+<p>The application is still a WIP, there are several things that can be improved ( especially considering that I’m still a beginner with React, I didn’t use any particular Hooks or advanced development methods ), such as the loading of the maps from the Google API Maps, improved performance ( sometimes WebGl crashes in my browser, I have yet to find out why ), but for the use I make of it, it’s ok.
+If you want to help me with the development you can check the repository on <a href="https://github.com/RasterCrow/Geo-Locator">GitHub</a>.</p>
+
+<p>The app was developed with <code class="highlighter-rouge">React</code> for the front-end,<code class="highlighter-rouge"> Firebase Hosting</code> for hosting, <code class="highlighter-rouge">Firebase Real Time Database</code> for match and lobby management and finally the<code class="highlighter-rouge"> Google Maps API</code>.
+Initially I was thinking of using <a href="https://socket.io/">socket.io</a> to create a server to handle the game data, but Firebase’s realtime database worked fine.</p>
+
+<h1 id="some-ui-images">Some UI images</h1>
+
+<div style="
+position: relative;
+margin:auto;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;
+  margin-top:25px;
+  max-width:800px;">
+<img class="blogImage" src="https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true" alt="picture of Game Interface" />
+<div class="image-text-caption">
+  Game Interface
+  </div>
+</div>
+
+<div style="position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;">
+<img class="blogImage" src="https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true" alt="picture of Lobby Menu" />
+<div class="image-text-caption">
+  Lobby Menu
+  </div>
+</div>
+<div style="position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;">
+<img class="blogImage" src="https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true" alt="picture of Game Recap Menu" />
+<div class="image-text-caption">
+  Game Recap Menu
+  </div>
+</div>
+
+<h1 id="can-i-use-it-with-my-friends">Can I use it with my friends?</h1>
+
+<p>Sure, the setup isn’t simple, but it’s not too complicated either.
+First you need to create a project on Firebase, enable Firebase Hosting and RealTime Database.
+You also need to enable Google Maps API in the project.</p>
+
+<p><code class="highlighter-rouge">ATTENTION: Calls to the Google Maps API are not free, but Google provides $ 200 for free per month, so it is important to implement quotas and limitations to this API to avoid misuses and huge bills.</code></p>
+
+<p>Also try to limit the use of the API_KEY to the Firebase Hosting site only.
+With these security issues fixed, just download Geo Locator from GitHub and place your .env file in the root directory.
+Real Time Database rules could also be improved, but if you’ve already added limits to your key, the defaults one are fine too.</p>
+
+<p>The .env file should look like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>REACT_APP_API_KEY = "YOUR-API-KEY"
+REACT_APP_AUTHDOMAIN = "YOUR-DATA"
+REACT_APP_BASEURL = "YOUR-DATA"
+REACT_APP_PROJECT_ID = "YOUR-DATA"
+REACT_APP_STORAGEBUCKET = "YOUR-DATA"
+REACT_APP_MESSAGING_SENDER_ID = "YOUR-DATA"
+REACT_APP_APP_ID = "YOUR-DATA"
+REACT_APP_MEASUREMENT_ID = "YOUR-DATA"
+</code></pre></div></div>
+
+<p>Finally just build the project and deploy it on Firebase Hosting and voila, the app is published.</p>
+
+<p>You can also add your Locations to the game by going to <em>src/providers/GameProvider.js</em> and adding the Latitude and Longitude to the LOCATIONS array at the end of the file.</p>
+
+<h1 id="end">End</h1>
+
+<p>Thanks for your interest, see you!</p>
 </div>
       </div>
 
@@ -185,22 +262,22 @@ So che usando servizi come <code class="highlighter-rouge">WordPress</code> o <c
 
       <div class="card shadow card-body otherPosts">
         
-        <h1 class="titoloBlogPost">Post Recenti</h1>
+        <h1 class="titoloBlogPost">Recent Posts</h1>
 
         <div class="otherPostsContainer overflow-auto">
            
           <div class="card card-body blogPost shadow overflow-auto">
             <article>
-              <!-- <h2><a class ="stroke" href="/posts/projects/Geo-Locator,-un-clone-di-Geoguessr">Geo Locator - un clone di Geoguessr</a></h2>-->
-              <h2 class="titoloBlogPost">Geo Locator - un clone di Geoguessr</h2>
+              <!-- <h2><a class ="stroke" href="/posts/projects/Geo-Locator,-a-Geoguessr-clone">Geo Locator, a Geoguessr clone</a></h2>-->
+              <h2 class="titoloBlogPost">Geo Locator, a Geoguessr clone</h2>
               <div class="dataText">Published on : &nbsp</div>
               <p class="dataPost">11 January 2021</p>
-              <div>Ho creato una clone di Geoguessr per uso privato.</div>
+              <div>I've made a Geoguessr clone for private use.</div>
             </article>
             <hr />
             <footer class="lang-options">
               
-              <em>Leggi il post in :</em>
+              <em>View this post in :</em>
               <ul>
                 
                 <li>
@@ -239,16 +316,16 @@ So che usando servizi come <code class="highlighter-rouge">WordPress</code> o <c
           
           <div class="card card-body blogPost shadow overflow-auto">
             <article>
-              <!-- <h2><a class ="stroke" href="/posts/generale/la-photo-mode-di-death-stranding">La Photo Mode di Death Stranding</a></h2>-->
-              <h2 class="titoloBlogPost">La Photo Mode di Death Stranding</h2>
+              <!-- <h2><a class ="stroke" href="/posts/generale/death-stranding's-photo-mode">Death Stranding's Photo Mode</a></h2>-->
+              <h2 class="titoloBlogPost">Death Stranding's Photo Mode</h2>
               <div class="dataText">Published on : &nbsp</div>
               <p class="dataPost">15 September 2020</p>
-              <div>Qualche parola sulla Photo Mode disponibile su Death Stranding.</div>
+              <div>Some words about the Photo Mode of Kojima's latest game, Death Stranding.</div>
             </article>
             <hr />
             <footer class="lang-options">
               
-              <em>Leggi il post in :</em>
+              <em>View this post in :</em>
               <ul>
                 
                 <li>
@@ -287,16 +364,16 @@ So che usando servizi come <code class="highlighter-rouge">WordPress</code> o <c
           
           <div class="card card-body blogPost shadow overflow-auto">
             <article>
-              <!-- <h2><a class ="stroke" href="/posts/generale/modifiche-al-sito">Come ho modificato il sito.</a></h2>-->
-              <h2 class="titoloBlogPost">Come ho modificato il sito.</h2>
+              <!-- <h2><a class ="stroke" href="/posts/generale/changes-to-the-site">How I updated the website</a></h2>-->
+              <h2 class="titoloBlogPost">How I updated the website</h2>
               <div class="dataText">Published on : &nbsp</div>
               <p class="dataPost">08 June 2020</p>
-              <div>Recentemente ho deciso di modificare ancora la sezione blog, nonchè diversi metadata dal sito, in modo da renderlo più semplice da trovare, mentre si naviga nel web.</div>
+              <div>Recently I decided to change the blog section again, as well as several metadata from the site, in order to make it easier to find while browsing the web.</div>
             </article>
             <hr />
             <footer class="lang-options">
               
-              <em>Leggi il post in :</em>
+              <em>View this post in :</em>
               <ul>
                 
                 <li>

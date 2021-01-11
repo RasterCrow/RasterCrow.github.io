@@ -8,14 +8,14 @@ description: Ho creato una clone di Geoguessr per uso privato.
 date: 2021-01-11 15:00:00 +0100
 categories: projects
 thumbnail_pagina: https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true
-
 ---
 
 # Geo Locator
 
 <div style="position: relative;
   text-align: center;
-  color: white;"
+  color: white;
+  margin-bottom:25px;"
   >
   <img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true" alt = "header picture of geo locator" />
 </div>
@@ -27,11 +27,13 @@ Cosi ho pensato di provare a crearne un clone, solamente per uso privato.
 Ed eccolo qui, [Geo Locator](https://github.com/RasterCrow/Geo-Locator).
 
 # Cos è?
+
 Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi.
 Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni.
 Alla fine dei round la persona con più punti vince.
 
 # Com è fatta?
+
 L' applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l'uso che ne faccio mi sembra a buon punto.
 Se volete darmi una mano allo sviluppo potete controllare la repository su [GitHub](https://github.com/RasterCrow/Geo-Locator).
 
@@ -40,19 +42,14 @@ Inizialmente pensavo di usare [socket.io](https://socket.io/) per creare un serv
 
 # Alcune immagini della UI
 
-<div style="position: relative;
+<div style="
+position: relative;
+margin:auto;
   text-align: center;
-  color: white;"
-  >
-<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true" alt = "picture of Lobby Menu" />
-<div class="image-text-caption">
-  Lobby Menu
-  </div>
-</div>
-
-<div style="position: relative;
-  text-align: center;
-  color: white;"
+  color: white;
+  margin-bottom:25px;
+  margin-top:25px;
+  max-width:800px;"
   >
 <img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true" alt = "picture of Game Interface" />
 <div class="image-text-caption">
@@ -62,7 +59,22 @@ Inizialmente pensavo di usare [socket.io](https://socket.io/) per creare un serv
 
 <div style="position: relative;
   text-align: center;
-  color: white;"
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true" alt = "picture of Lobby Menu" />
+<div class="image-text-caption">
+  Lobby Menu
+  </div>
+</div>
+<div style="position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;"
   >
 <img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true" alt = "picture of Game Recap Menu" />
 <div class="image-text-caption">
@@ -71,6 +83,7 @@ Inizialmente pensavo di usare [socket.io](https://socket.io/) per creare un serv
 </div>
 
 # Posso usarla con i miei amici?
+
 Certo, il setup non è semplice, ma neanche troppo complicato.
 Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database.
 Inoltre è necessario abilitare Le API di Google Maps nel progetto.
@@ -82,15 +95,16 @@ Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e in
 Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi.
 
 Il file .env dovrebbe essere cosi :
+
 ```
-REACT_APP_API_KEY= "YOUR-API-KEY"
-REACT_APP_AUTHDOMAIN= "YOUR-DATA"
-REACT_APP_BASEURL= "YOUR-DATA"
-REACT_APP_PROJECT_ID= "YOUR-DATA"
-REACT_APP_STORAGEBUCKET= "YOUR-DATA"
-REACT_APP_MESSAGING_SENDER_ID= "YOUR-DATA"
-REACT_APP_APP_ID= "YOUR-DATA"
-REACT_APP_MEASUREMENT_ID= "YOUR-DATA"
+REACT_APP_API_KEY = "YOUR-API-KEY"
+REACT_APP_AUTHDOMAIN = "YOUR-DATA"
+REACT_APP_BASEURL = "YOUR-DATA"
+REACT_APP_PROJECT_ID = "YOUR-DATA"
+REACT_APP_STORAGEBUCKET = "YOUR-DATA"
+REACT_APP_MESSAGING_SENDER_ID = "YOUR-DATA"
+REACT_APP_APP_ID = "YOUR-DATA"
+REACT_APP_MEASUREMENT_ID = "YOUR-DATA"
 ```
 
 Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l'app è pubblicata.
@@ -98,9 +112,5 @@ Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà
 Puoi anche aggiungere le tue Location al gioco andando su _src/providers/GameProvider.js_ e aggiungendo la Latitudine e Longitudine all'array LOCATIONS che c'è a fine file.
 
 # Fine
+
 Grazie per l'interesse, ci vediamo!
-
-
-
-
-

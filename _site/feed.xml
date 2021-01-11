@@ -1,4 +1,201 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-10-07T17:48:20+02:00</updated><id>http://localhost:4000/feed.xml</id><subtitle>Sito portfolio e blog di Alexandru Stefan Andries, conosciuto come RasterCrow sul web.</subtitle><entry xml:lang="IT"><title type="html">La Photo Mode di Death Stranding</title><link href="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding" rel="alternate" type="text/html" title="La Photo Mode di Death Stranding" /><published>2020-09-15T13:00:00+02:00</published><updated>2020-09-15T13:00:00+02:00</updated><id>http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding</id><content type="html" xml:base="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding">&lt;p&gt;Recentemente ho acquistato &lt;code class=&quot;highlighter-rouge&quot;&gt;Death Stranding&lt;/code&gt; su Steam, l’ultima fatica di &lt;code class=&quot;highlighter-rouge&quot;&gt;Hideo Kojima&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-01-11T19:13:45+01:00</updated><id>http://localhost:4000/feed.xml</id><subtitle>Sito portfolio e blog di Alexandru Stefan Andries, conosciuto come RasterCrow sul web.</subtitle><entry xml:lang="IT"><title type="html">Geo Locator - un clone di Geoguessr</title><link href="http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr" rel="alternate" type="text/html" title="Geo Locator - un clone di Geoguessr" /><published>2021-01-11T15:00:00+01:00</published><updated>2021-01-11T15:00:00+01:00</updated><id>http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr</id><content type="html" xml:base="http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr">&lt;h1 id=&quot;geo-locator&quot;&gt;Geo Locator&lt;/h1&gt;
+
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;&quot;&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true&quot; alt=&quot;header picture of geo locator&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a &lt;a href=&quot;https://www.geoguessr.com/&quot;&gt;Geoguessr&lt;/a&gt;.
+Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento.
+Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l’abbonamento.&lt;/p&gt;
+
+&lt;p&gt;Cosi ho pensato di provare a crearne un clone, solamente per uso privato.
+Ed eccolo qui, &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;Geo Locator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;cos-è&quot;&gt;Cos è?&lt;/h1&gt;
+
+&lt;p&gt;Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi.
+Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni.
+Alla fine dei round la persona con più punti vince.&lt;/p&gt;
+
+&lt;h1 id=&quot;com-è-fatta&quot;&gt;Com è fatta?&lt;/h1&gt;
+
+&lt;p&gt;L’ applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l’uso che ne faccio mi sembra a buon punto.
+Se volete darmi una mano allo sviluppo potete controllare la repository su &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;L’app è stata sviluppata con &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; per il front-end, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Hosting&lt;/code&gt; per l’hosting, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Real Time Database&lt;/code&gt; per la gestione dei match e delle lobby ed infine le API di &lt;code class=&quot;highlighter-rouge&quot;&gt;Google Maps&lt;/code&gt;.
+Inizialmente pensavo di usare &lt;a href=&quot;https://socket.io/&quot;&gt;socket.io&lt;/a&gt; per creare un server che gestiva il tutto, ma il database in tempo reale di Firebase é andato bene comunque.&lt;/p&gt;
+
+&lt;h1 id=&quot;alcune-immagini-della-ui&quot;&gt;Alcune immagini della UI&lt;/h1&gt;
+
+&lt;div style=&quot;
+position: relative;
+margin:auto;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;
+  margin-top:25px;
+  max-width:800px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true&quot; alt=&quot;picture of Game Interface&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Game Interface
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true&quot; alt=&quot;picture of Lobby Menu&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Lobby Menu
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true&quot; alt=&quot;picture of Game Recap Menu&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Game Recap Menu
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;posso-usarla-con-i-miei-amici&quot;&gt;Posso usarla con i miei amici?&lt;/h1&gt;
+
+&lt;p&gt;Certo, il setup non è semplice, ma neanche troppo complicato.
+Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database.
+Inoltre è necessario abilitare Le API di Google Maps nel progetto.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ATTENZIONE : Le chiamate alle API di Google Maps non sono gratuite, ma Google mette a dispozione 200$ gratis al mese.E' importante quindi implementare delle quote e limitazioni a tale API per evitare usi impropri e fatture enormi.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Cerca anche di limitare l’uso della API_KEY solo al sito di Firebase Hosting.
+Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e inserisci il tuo file .env nella directory principale.
+Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi.&lt;/p&gt;
+
+&lt;p&gt;Il file .env dovrebbe essere cosi :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot;
+REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot;
+REACT_APP_BASEURL = &quot;YOUR-DATA&quot;
+REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot;
+REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot;
+REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot;
+REACT_APP_APP_ID = &quot;YOUR-DATA&quot;
+REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l’app è pubblicata.&lt;/p&gt;
+
+&lt;p&gt;Puoi anche aggiungere le tue Location al gioco andando su &lt;em&gt;src/providers/GameProvider.js&lt;/em&gt; e aggiungendo la Latitudine e Longitudine all’array LOCATIONS che c’è a fine file.&lt;/p&gt;
+
+&lt;h1 id=&quot;fine&quot;&gt;Fine&lt;/h1&gt;
+
+&lt;p&gt;Grazie per l’interesse, ci vediamo!&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Geo Locator Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a Geoguessr. Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento. Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l’abbonamento. Cosi ho pensato di provare a crearne un clone, solamente per uso privato. Ed eccolo qui, Geo Locator. Cos è? Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi. Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni. Alla fine dei round la persona con più punti vince. Com è fatta? L’ applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l’uso che ne faccio mi sembra a buon punto. Se volete darmi una mano allo sviluppo potete controllare la repository su GitHub. L’app è stata sviluppata con React per il front-end, Firebase Hosting per l’hosting, Firebase Real Time Database per la gestione dei match e delle lobby ed infine le API di Google Maps. Inizialmente pensavo di usare socket.io per creare un server che gestiva il tutto, ma il database in tempo reale di Firebase é andato bene comunque. Alcune immagini della UI Game Interface Lobby Menu Game Recap Menu Posso usarla con i miei amici? Certo, il setup non è semplice, ma neanche troppo complicato. Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database. Inoltre è necessario abilitare Le API di Google Maps nel progetto. ATTENZIONE : Le chiamate alle API di Google Maps non sono gratuite, ma Google mette a dispozione 200$ gratis al mese.E' importante quindi implementare delle quote e limitazioni a tale API per evitare usi impropri e fatture enormi. Cerca anche di limitare l’uso della API_KEY solo al sito di Firebase Hosting. Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e inserisci il tuo file .env nella directory principale. Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi. Il file .env dovrebbe essere cosi : REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot; REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot; REACT_APP_BASEURL = &quot;YOUR-DATA&quot; REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot; REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot; REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot; REACT_APP_APP_ID = &quot;YOUR-DATA&quot; REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot; Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l’app è pubblicata. Puoi anche aggiungere le tue Location al gioco andando su src/providers/GameProvider.js e aggiungendo la Latitudine e Longitudine all’array LOCATIONS che c’è a fine file. Fine Grazie per l’interesse, ci vediamo!</summary></entry><entry xml:lang="EN"><title type="html">Geo Locator, a Geoguessr clone</title><link href="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone" rel="alternate" type="text/html" title="Geo Locator, a Geoguessr clone" /><published>2021-01-11T15:00:00+01:00</published><updated>2021-01-11T15:00:00+01:00</updated><id>http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone</id><content type="html" xml:base="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone">&lt;h1 id=&quot;geo-locator&quot;&gt;Geo Locator&lt;/h1&gt;
+
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;&quot;&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true&quot; alt=&quot;header picture of geo locator&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the last few days my friends and I wanted to play &lt;a href=&quot;https://www.geoguessr.com/&quot;&gt;Geoguessr&lt;/a&gt; again.
+However, since the site has grown so much in recent years, the developers had to make a subscription for the service, to keep it up.
+Let’s be real, € 3 a month is not a lot, but since I’m only playing it a few times a week, I didn’t like the idea of paying for the subscription.&lt;/p&gt;
+
+&lt;p&gt;So I thought I’d try to create a clone, just for private use.
+And here it is, &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;Geo Locator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h1&gt;
+
+&lt;p&gt;For those unfamiliar with it, Geoguessr is a multiplayer but also singleplayer game that throws you into a random place in the world and by using Google Street View you have to guess where you are.
+The closer your answer ( you set a marker on Google Maps ), the more points you earn.
+At the end of the rounds, the person with the most points wins.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-was-it-made&quot;&gt;How was it made?&lt;/h1&gt;
+
+&lt;p&gt;The application is still a WIP, there are several things that can be improved ( especially considering that I’m still a beginner with React, I didn’t use any particular Hooks or advanced development methods ), such as the loading of the maps from the Google API Maps, improved performance ( sometimes WebGl crashes in my browser, I have yet to find out why ), but for the use I make of it, it’s ok.
+If you want to help me with the development you can check the repository on &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The app was developed with &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; for the front-end,&lt;code class=&quot;highlighter-rouge&quot;&gt; Firebase Hosting&lt;/code&gt; for hosting, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Real Time Database&lt;/code&gt; for match and lobby management and finally the&lt;code class=&quot;highlighter-rouge&quot;&gt; Google Maps API&lt;/code&gt;.
+Initially I was thinking of using &lt;a href=&quot;https://socket.io/&quot;&gt;socket.io&lt;/a&gt; to create a server to handle the game data, but Firebase’s realtime database worked fine.&lt;/p&gt;
+
+&lt;h1 id=&quot;some-ui-images&quot;&gt;Some UI images&lt;/h1&gt;
+
+&lt;div style=&quot;
+position: relative;
+margin:auto;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;
+  margin-top:25px;
+  max-width:800px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true&quot; alt=&quot;picture of Game Interface&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Game Interface
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true&quot; alt=&quot;picture of Lobby Menu&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Lobby Menu
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true&quot; alt=&quot;picture of Game Recap Menu&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Game Recap Menu
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;can-i-use-it-with-my-friends&quot;&gt;Can I use it with my friends?&lt;/h1&gt;
+
+&lt;p&gt;Sure, the setup isn’t simple, but it’s not too complicated either.
+First you need to create a project on Firebase, enable Firebase Hosting and RealTime Database.
+You also need to enable Google Maps API in the project.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ATTENTION: Calls to the Google Maps API are not free, but Google provides $ 200 for free per month, so it is important to implement quotas and limitations to this API to avoid misuses and huge bills.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Also try to limit the use of the API_KEY to the Firebase Hosting site only.
+With these security issues fixed, just download Geo Locator from GitHub and place your .env file in the root directory.
+Real Time Database rules could also be improved, but if you’ve already added limits to your key, the defaults one are fine too.&lt;/p&gt;
+
+&lt;p&gt;The .env file should look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot;
+REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot;
+REACT_APP_BASEURL = &quot;YOUR-DATA&quot;
+REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot;
+REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot;
+REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot;
+REACT_APP_APP_ID = &quot;YOUR-DATA&quot;
+REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally just build the project and deploy it on Firebase Hosting and voila, the app is published.&lt;/p&gt;
+
+&lt;p&gt;You can also add your Locations to the game by going to &lt;em&gt;src/providers/GameProvider.js&lt;/em&gt; and adding the Latitude and Longitude to the LOCATIONS array at the end of the file.&lt;/p&gt;
+
+&lt;h1 id=&quot;end&quot;&gt;End&lt;/h1&gt;
+
+&lt;p&gt;Thanks for your interest, see you!&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Geo Locator In the last few days my friends and I wanted to play Geoguessr again. However, since the site has grown so much in recent years, the developers had to make a subscription for the service, to keep it up. Let’s be real, € 3 a month is not a lot, but since I’m only playing it a few times a week, I didn’t like the idea of paying for the subscription. So I thought I’d try to create a clone, just for private use. And here it is, Geo Locator. What is it? For those unfamiliar with it, Geoguessr is a multiplayer but also singleplayer game that throws you into a random place in the world and by using Google Street View you have to guess where you are. The closer your answer ( you set a marker on Google Maps ), the more points you earn. At the end of the rounds, the person with the most points wins. How was it made? The application is still a WIP, there are several things that can be improved ( especially considering that I’m still a beginner with React, I didn’t use any particular Hooks or advanced development methods ), such as the loading of the maps from the Google API Maps, improved performance ( sometimes WebGl crashes in my browser, I have yet to find out why ), but for the use I make of it, it’s ok. If you want to help me with the development you can check the repository on GitHub. The app was developed with React for the front-end, Firebase Hosting for hosting, Firebase Real Time Database for match and lobby management and finally the Google Maps API. Initially I was thinking of using socket.io to create a server to handle the game data, but Firebase’s realtime database worked fine. Some UI images Game Interface Lobby Menu Game Recap Menu Can I use it with my friends? Sure, the setup isn’t simple, but it’s not too complicated either. First you need to create a project on Firebase, enable Firebase Hosting and RealTime Database. You also need to enable Google Maps API in the project. ATTENTION: Calls to the Google Maps API are not free, but Google provides $ 200 for free per month, so it is important to implement quotas and limitations to this API to avoid misuses and huge bills. Also try to limit the use of the API_KEY to the Firebase Hosting site only. With these security issues fixed, just download Geo Locator from GitHub and place your .env file in the root directory. Real Time Database rules could also be improved, but if you’ve already added limits to your key, the defaults one are fine too. The .env file should look like this: REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot; REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot; REACT_APP_BASEURL = &quot;YOUR-DATA&quot; REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot; REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot; REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot; REACT_APP_APP_ID = &quot;YOUR-DATA&quot; REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot; Finally just build the project and deploy it on Firebase Hosting and voila, the app is published. You can also add your Locations to the game by going to src/providers/GameProvider.js and adding the Latitude and Longitude to the LOCATIONS array at the end of the file. End Thanks for your interest, see you!</summary></entry><entry xml:lang="IT"><title type="html">La Photo Mode di Death Stranding</title><link href="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding" rel="alternate" type="text/html" title="La Photo Mode di Death Stranding" /><published>2020-09-15T13:00:00+02:00</published><updated>2020-09-15T13:00:00+02:00</updated><id>http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding</id><content type="html" xml:base="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding">&lt;p&gt;Recentemente ho acquistato &lt;code class=&quot;highlighter-rouge&quot;&gt;Death Stranding&lt;/code&gt; su Steam, l’ultima fatica di &lt;code class=&quot;highlighter-rouge&quot;&gt;Hideo Kojima&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Per chi non lo conoscesse Death Stranding è un videogioco molto particolare, valorizza molto il viaggio e l’esplorazione da parte del videogiocatore. E’ dunque logico che ci sia stato un lavoro enorme per cercare di rendere la mappa di gioco il più interessante da navigare e aesteticamente piacevole all’occhio.
 Ha sicuramente aiutato avere a disposizione il &lt;code class=&quot;highlighter-rouge&quot;&gt;Decima Engine&lt;/code&gt;, usato in precedenza con Horizon Zero Dawn, da poco uscito sullo &lt;a href=&quot;https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/&quot;&gt;Steam Store&lt;/a&gt;, che ha permesso ai ragazzi di Kojima Productions di spingere l’hardware della PS4 al massimo delle sue capacità con modelli ingame di altissima qualità e paesaggi che sembrano reali.&lt;/p&gt;
@@ -171,7 +368,22 @@ Also, a little gem, you can even activate the mode during game cutscenes but you
 
 &lt;p&gt;You can view more of my photos on my &lt;a href=&quot;https://steamcommunity.com/id/rastercrow/screenshots/&quot;&gt;Steam profile&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Thank you for your time, see you next.&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">I recently purchased Death Stranding on the Steam store, the latest work from Hideo Kojima. For those unfamiliar with the game, Death Stranding is a very peculiar videogame with the journey of the player at its heart. It was therefore very important to design the map in such a way to push the player to explore and try new things while still being interactable and aesthetically pleasing to the eye. It obviously helped the team at Kojima Productions to have the Decima Engine, previously used for Horizon Zero Dawn, which recently came out on the Steam Store, that allowed them to really push the hardware capabilities of the PS4 with advanced character models and landscapes that look like real-life pictures. Horizon Zero Dawn powered by the Decima Engine The inclusion of a Photo Mode has therefore allowed many fans of the title and also real photographers to have fun trying to capture the best moments this game has to offer. Speaking of the Photo Mode per se, the most limiting factor I encountered must be the anchored camera around the player, which can be hidden if you want to capture only landscapes, but still, I would have preferred something more like the Shadow of the Tomb Raider photo mode where you could move anywhere around Lara Croft’s character within a certain distance. Also, a little gem, you can even activate the mode during game cutscenes but you obviously can’t move the camera around. Even with these limitation, there are however a number of options that can be used such as settings for the depth of field, wide angle camera, poses for Sam and BB and also some pre-made filters, which with some imagination allows players to take some very nice pictures. During my trip through America I had the opportunity to use this mode several times so here are some pictures I took. You can view more of my photos on my Steam profile Thank you for your time, see you next.</summary></entry><entry xml:lang="IT"><title type="html">Come ho modificato il sito.</title><link href="http://localhost:4000/posts/generale/modifiche-al-sito" rel="alternate" type="text/html" title="Come ho modificato il sito." /><published>2020-06-08T16:50:00+02:00</published><updated>2020-06-08T16:50:00+02:00</updated><id>http://localhost:4000/posts/generale/modifiche-al-sito</id><content type="html" xml:base="http://localhost:4000/posts/generale/modifiche-al-sito">&lt;p&gt;Recentemente ho deciso di provare a dare maggiore importanza alla sezione Blog del sito.
+&lt;p&gt;Thank you for your time, see you next.&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">I recently purchased Death Stranding on the Steam store, the latest work from Hideo Kojima. For those unfamiliar with the game, Death Stranding is a very peculiar videogame with the journey of the player at its heart. It was therefore very important to design the map in such a way to push the player to explore and try new things while still being interactable and aesthetically pleasing to the eye. It obviously helped the team at Kojima Productions to have the Decima Engine, previously used for Horizon Zero Dawn, which recently came out on the Steam Store, that allowed them to really push the hardware capabilities of the PS4 with advanced character models and landscapes that look like real-life pictures. Horizon Zero Dawn powered by the Decima Engine The inclusion of a Photo Mode has therefore allowed many fans of the title and also real photographers to have fun trying to capture the best moments this game has to offer. Speaking of the Photo Mode per se, the most limiting factor I encountered must be the anchored camera around the player, which can be hidden if you want to capture only landscapes, but still, I would have preferred something more like the Shadow of the Tomb Raider photo mode where you could move anywhere around Lara Croft’s character within a certain distance. Also, a little gem, you can even activate the mode during game cutscenes but you obviously can’t move the camera around. Even with these limitation, there are however a number of options that can be used such as settings for the depth of field, wide angle camera, poses for Sam and BB and also some pre-made filters, which with some imagination allows players to take some very nice pictures. During my trip through America I had the opportunity to use this mode several times so here are some pictures I took. You can view more of my photos on my Steam profile Thank you for your time, see you next.</summary></entry><entry xml:lang="EN"><title type="html">How I updated the website</title><link href="http://localhost:4000/posts/generale/changes-to-the-site" rel="alternate" type="text/html" title="How I updated the website" /><published>2020-06-08T16:50:00+02:00</published><updated>2020-06-08T16:50:00+02:00</updated><id>http://localhost:4000/posts/generale/changes-to-the-site</id><content type="html" xml:base="http://localhost:4000/posts/generale/changes-to-the-site">&lt;p&gt;Recently I decided to try to give more importance to the Blog section of the site.
+This is because, with all the free time I had, I have worked on several projects with the &lt;code class=&quot;highlighter-rouge&quot;&gt;Raspberry Pi 4&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; React&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Docker&lt;/code&gt; and I’d like to talk about them in a few posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; src=&quot;https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/oldStylePost.gif&quot; class=&quot;img-fluid&quot; alt=&quot;old Style Blog&quot; max-width=&quot;600&quot; max-height=&quot;338&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With the old blogging system, visible above, it was very fast and easy to switch from one post to another, as clicking on one of them did not redirect you to a specific page, but simply opened a popup tab with the content of the post.
+I liked this system and still like it a lot, because it allowed the user to have everything on the same page.
+But due to the way it is implemented, it is not possible to post direct links to that post and also not even a search on the internet with information from the post would have given me any results.
+I therefore decided, instead of loading the post in the modal directly on the page, to send the user to the blog apge, like in all the normal blogs.
+This also allows me to do things like collections of posts from a certain category, or a certain month. (Not available at the moment).&lt;/p&gt;
+
+&lt;p&gt;I know that by using services like &lt;code class=&quot;highlighter-rouge&quot;&gt;WordPress&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Wiz&lt;/code&gt; I could have done this much faster, but I wanted to do something different and try to develop it myself.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading, see you next time!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;P.S : Yes, it is ok that the post cards are of different sizes, I made this design choice on purpose.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Recently I decided to try to give more importance to the Blog section of the site. This is because, with all the free time I had, I have worked on several projects with the Raspberry Pi 4, React, Docker and I’d like to talk about them in a few posts. With the old blogging system, visible above, it was very fast and easy to switch from one post to another, as clicking on one of them did not redirect you to a specific page, but simply opened a popup tab with the content of the post. I liked this system and still like it a lot, because it allowed the user to have everything on the same page. But due to the way it is implemented, it is not possible to post direct links to that post and also not even a search on the internet with information from the post would have given me any results. I therefore decided, instead of loading the post in the modal directly on the page, to send the user to the blog apge, like in all the normal blogs. This also allows me to do things like collections of posts from a certain category, or a certain month. (Not available at the moment). I know that by using services like WordPress or Wiz I could have done this much faster, but I wanted to do something different and try to develop it myself. Thanks for reading, see you next time! P.S : Yes, it is ok that the post cards are of different sizes, I made this design choice on purpose.</summary></entry><entry xml:lang="IT"><title type="html">Come ho modificato il sito.</title><link href="http://localhost:4000/posts/generale/modifiche-al-sito" rel="alternate" type="text/html" title="Come ho modificato il sito." /><published>2020-06-08T16:50:00+02:00</published><updated>2020-06-08T16:50:00+02:00</updated><id>http://localhost:4000/posts/generale/modifiche-al-sito</id><content type="html" xml:base="http://localhost:4000/posts/generale/modifiche-al-sito">&lt;p&gt;Recentemente ho deciso di provare a dare maggiore importanza alla sezione Blog del sito.
 Questo perche, con tutto il tempo libero che ho avuto, ho lavorato su parecchi progetti con il &lt;code class=&quot;highlighter-rouge&quot;&gt;Raspberry Pi 4&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Docker&lt;/code&gt; e mi piacerebbe parlarne in qualche post.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; src=&quot;https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/oldStylePost.gif&quot; class=&quot;img-fluid&quot; alt=&quot;old Style Blog&quot; max-width=&quot;600&quot; max-height=&quot;338&quot; /&gt;&lt;/p&gt;
@@ -187,22 +399,7 @@ So che usando servizi come &lt;code class=&quot;highlighter-rouge&quot;&gt;WordP
 
 &lt;p&gt;Grazie per la lettura, alla prossima!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Recentemente ho deciso di provare a dare maggiore importanza alla sezione Blog del sito. Questo perche, con tutto il tempo libero che ho avuto, ho lavorato su parecchi progetti con il Raspberry Pi 4, React, Docker e mi piacerebbe parlarne in qualche post. Col vecchio sistema di blog, visibile qui sopra, era comodo e veloce poter passare da un post all’altro, in quanto il click su uno di essi non ti reindirizzava a una pagina apposita, ma semplicemente apriva una scheda popup con il contenuto del post. Questo sistema mi piaceva e mi piace ancora molto, perche permetteva all’utente di avere tutto il conenuto nella stessa pagina, come una web app. Ma a causa del modo in cui viene implementato, non è possibile postare link diretti a quel post e inoltre neanche una ricerca su internet con informazioni del post mi avrebbe dato nessun risultato. Ho quindi deciso, anziche caricare il post nel modal direttamente nella pagina, di rimandare l’utente su una pagina apposta, come in tutti i normali blog. Questo mi permette anche di fare cose come raccolte dei post di una determinata categoria, o di un determinato mese. ( Non disponibile al momento ). Detto ciò, con questo post volevo solo dimostrare il mio intento nel cercare di migliorare questa sezione e provare a dargli più importanza in futuro. So che usando servizi come WordPress o Wiz avrei potuto fare tutto questo molto più velocemente, ma volevo fare qualcosa di diverso e cercare di gestire il tutto da me. Grazie per la lettura, alla prossima! P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design.</summary></entry><entry xml:lang="EN"><title type="html">How I updated the website</title><link href="http://localhost:4000/posts/generale/changes-to-the-site" rel="alternate" type="text/html" title="How I updated the website" /><published>2020-06-08T16:50:00+02:00</published><updated>2020-06-08T16:50:00+02:00</updated><id>http://localhost:4000/posts/generale/changes-to-the-site</id><content type="html" xml:base="http://localhost:4000/posts/generale/changes-to-the-site">&lt;p&gt;Recently I decided to try to give more importance to the Blog section of the site.
-This is because, with all the free time I had, I have worked on several projects with the &lt;code class=&quot;highlighter-rouge&quot;&gt;Raspberry Pi 4&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; React&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Docker&lt;/code&gt; and I’d like to talk about them in a few posts.&lt;/p&gt;
-
-&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; src=&quot;https://s3.eu-central-1.amazonaws.com/rastercrow.me/images/posts/8-6-20/oldStylePost.gif&quot; class=&quot;img-fluid&quot; alt=&quot;old Style Blog&quot; max-width=&quot;600&quot; max-height=&quot;338&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With the old blogging system, visible above, it was very fast and easy to switch from one post to another, as clicking on one of them did not redirect you to a specific page, but simply opened a popup tab with the content of the post.
-I liked this system and still like it a lot, because it allowed the user to have everything on the same page.
-But due to the way it is implemented, it is not possible to post direct links to that post and also not even a search on the internet with information from the post would have given me any results.
-I therefore decided, instead of loading the post in the modal directly on the page, to send the user to the blog apge, like in all the normal blogs.
-This also allows me to do things like collections of posts from a certain category, or a certain month. (Not available at the moment).&lt;/p&gt;
-
-&lt;p&gt;I know that by using services like &lt;code class=&quot;highlighter-rouge&quot;&gt;WordPress&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Wiz&lt;/code&gt; I could have done this much faster, but I wanted to do something different and try to develop it myself.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading, see you next time!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;P.S : Yes, it is ok that the post cards are of different sizes, I made this design choice on purpose.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Recently I decided to try to give more importance to the Blog section of the site. This is because, with all the free time I had, I have worked on several projects with the Raspberry Pi 4, React, Docker and I’d like to talk about them in a few posts. With the old blogging system, visible above, it was very fast and easy to switch from one post to another, as clicking on one of them did not redirect you to a specific page, but simply opened a popup tab with the content of the post. I liked this system and still like it a lot, because it allowed the user to have everything on the same page. But due to the way it is implemented, it is not possible to post direct links to that post and also not even a search on the internet with information from the post would have given me any results. I therefore decided, instead of loading the post in the modal directly on the page, to send the user to the blog apge, like in all the normal blogs. This also allows me to do things like collections of posts from a certain category, or a certain month. (Not available at the moment). I know that by using services like WordPress or Wiz I could have done this much faster, but I wanted to do something different and try to develop it myself. Thanks for reading, see you next time! P.S : Yes, it is ok that the post cards are of different sizes, I made this design choice on purpose.</summary></entry><entry xml:lang="EN"><title type="html">Hello!</title><link href="http://localhost:4000/posts/generale/introductions" rel="alternate" type="text/html" title="Hello!" /><published>2020-05-16T11:20:00+02:00</published><updated>2020-05-16T11:20:00+02:00</updated><id>http://localhost:4000/posts/generale/introductions</id><content type="html" xml:base="http://localhost:4000/posts/generale/introductions">&lt;p&gt;To be honest I don’t even know what to write, but I didn’t want to leave the &lt;code class=&quot;highlighter-rouge&quot;&gt;Blog&lt;/code&gt; section empty so here I am.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design.&lt;/em&gt;&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Recentemente ho deciso di provare a dare maggiore importanza alla sezione Blog del sito. Questo perche, con tutto il tempo libero che ho avuto, ho lavorato su parecchi progetti con il Raspberry Pi 4, React, Docker e mi piacerebbe parlarne in qualche post. Col vecchio sistema di blog, visibile qui sopra, era comodo e veloce poter passare da un post all’altro, in quanto il click su uno di essi non ti reindirizzava a una pagina apposita, ma semplicemente apriva una scheda popup con il contenuto del post. Questo sistema mi piaceva e mi piace ancora molto, perche permetteva all’utente di avere tutto il conenuto nella stessa pagina, come una web app. Ma a causa del modo in cui viene implementato, non è possibile postare link diretti a quel post e inoltre neanche una ricerca su internet con informazioni del post mi avrebbe dato nessun risultato. Ho quindi deciso, anziche caricare il post nel modal direttamente nella pagina, di rimandare l’utente su una pagina apposta, come in tutti i normali blog. Questo mi permette anche di fare cose come raccolte dei post di una determinata categoria, o di un determinato mese. ( Non disponibile al momento ). Detto ciò, con questo post volevo solo dimostrare il mio intento nel cercare di migliorare questa sezione e provare a dargli più importanza in futuro. So che usando servizi come WordPress o Wiz avrei potuto fare tutto questo molto più velocemente, ma volevo fare qualcosa di diverso e cercare di gestire il tutto da me. Grazie per la lettura, alla prossima! P.S : Si, é normale che le card dei post siano di grandezza diversa, è voluta da me questa scelta di design.</summary></entry><entry xml:lang="EN"><title type="html">Hello!</title><link href="http://localhost:4000/posts/generale/introductions" rel="alternate" type="text/html" title="Hello!" /><published>2020-05-16T11:20:00+02:00</published><updated>2020-05-16T11:20:00+02:00</updated><id>http://localhost:4000/posts/generale/introductions</id><content type="html" xml:base="http://localhost:4000/posts/generale/introductions">&lt;p&gt;To be honest I don’t even know what to write, but I didn’t want to leave the &lt;code class=&quot;highlighter-rouge&quot;&gt;Blog&lt;/code&gt; section empty so here I am.&lt;/p&gt;
 
 &lt;p&gt;Given all the projects I’ve started and never finished (I’m looking at you &lt;a href=&quot;https://www.youtube.com/watch?v=jYLgi8wGVLg&quot; target=&quot;\_blank&quot;&gt;The Witcher series&lt;/a&gt;) I don’t feel like planning posts for the future, but if I one day want to show some of my projects, talk about some games or movies or more simply to share my thoughts, I’ll most likely make a post about it.&lt;/p&gt;
 
