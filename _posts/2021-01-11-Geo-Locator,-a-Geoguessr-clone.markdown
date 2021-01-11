@@ -13,7 +13,13 @@ thumbnail_pagina: https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAs
 
 # Geo Locator
 
-![Header image of app](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+  <img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true" alt = "header picture of geo locator" />
+</div>
+
 
 In the last few days my friends and I wanted to play [Geoguessr](https://www.geoguessr.com/) again.
 However, since the site has grown so much in recent years, the developers had to make a subscription for the service, to keep it up.
@@ -37,14 +43,35 @@ Initially I was thinking of using [socket.io](https://socket.io/) to create a se
 
 # Some UI images
 
-Lobby Menu
-![Lobby functionality menu](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true" alt = "picture of Lobby Menu" />
+<div class="image-text-caption">
+  Lobby Menu
+  </div>
+</div>
 
-Game Interface
-![Game interface](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true" alt = "picture of Game Interface" />
+<div class="image-text-caption">
+  Game Interface
+  </div>
+</div>
 
-Game Recap Menu
-![Game Recap](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true" alt = "picture of Game Recap Menu" />
+<div class="image-text-caption">
+  Game Recap Menu
+  </div>
+</div>
 
 # Can I use it with my friends?
 Sure, the setup isn't simple, but it's not too complicated either.

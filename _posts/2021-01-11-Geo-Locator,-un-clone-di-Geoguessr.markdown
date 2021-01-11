@@ -13,8 +13,12 @@ thumbnail_pagina: https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAs
 
 # Geo Locator
 
-![Header image of app](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true)
-
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+  <img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true" alt = "header picture of geo locator" />
+</div>
 Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a [Geoguessr](https://www.geoguessr.com/).
 Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento.
 Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l'abbonamento.
@@ -36,14 +40,35 @@ Inizialmente pensavo di usare [socket.io](https://socket.io/) per creare un serv
 
 # Alcune immagini della UI
 
-Lobby Menu 
-![Lobby functionality menu](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true" alt = "picture of Lobby Menu" />
+<div class="image-text-caption">
+  Lobby Menu
+  </div>
+</div>
 
-Game Interface
-![Game interface](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true" alt = "picture of Game Interface" />
+<div class="image-text-caption">
+  Game Interface
+  </div>
+</div>
 
-Game Recap Menu
-![Game Recap](https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true)
+<div style="position: relative;
+  text-align: center;
+  color: white;"
+  >
+<img class="blogImage" src = "https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true" alt = "picture of Game Recap Menu" />
+<div class="image-text-caption">
+  Game Recap Menu
+  </div>
+</div>
 
 # Posso usarla con i miei amici?
 Certo, il setup non è semplice, ma neanche troppo complicato.
