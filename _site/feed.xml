@@ -1,102 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-01-11T19:13:45+01:00</updated><id>http://localhost:4000/feed.xml</id><subtitle>Sito portfolio e blog di Alexandru Stefan Andries, conosciuto come RasterCrow sul web.</subtitle><entry xml:lang="IT"><title type="html">Geo Locator - un clone di Geoguessr</title><link href="http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr" rel="alternate" type="text/html" title="Geo Locator - un clone di Geoguessr" /><published>2021-01-11T15:00:00+01:00</published><updated>2021-01-11T15:00:00+01:00</updated><id>http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr</id><content type="html" xml:base="http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr">&lt;h1 id=&quot;geo-locator&quot;&gt;Geo Locator&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-04-15T14:50:28+02:00</updated><id>http://localhost:4000/feed.xml</id><subtitle>Sito portfolio e blog di Alexandru Stefan Andries, conosciuto come RasterCrow sul web.</subtitle><entry xml:lang="EN"><title type="html">Games I Played in 2021</title><link href="http://localhost:4000/posts/generale/Games-I-played-in-2021" rel="alternate" type="text/html" title="Games I Played in 2021" /><published>2021-04-15T14:00:00+02:00</published><updated>2021-04-15T14:00:00+02:00</updated><id>http://localhost:4000/posts/generale/Games-I-played-in-2021</id><content type="html" xml:base="http://localhost:4000/posts/generale/Games-I-played-in-2021">&lt;h1 id=&quot;info&quot;&gt;Info&lt;/h1&gt;
 
-&lt;div style=&quot;position: relative;
-  text-align: center;
-  color: white;
-  margin-bottom:25px;&quot;&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true&quot; alt=&quot;header picture of geo locator&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a &lt;a href=&quot;https://www.geoguessr.com/&quot;&gt;Geoguessr&lt;/a&gt;.
-Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento.
-Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l’abbonamento.&lt;/p&gt;
+&lt;p&gt;Having all these platforms and launchers to play from, when the end of the year draws near I tend to forget which games I played, so I decided to use a blog post as a tracker for all the games that I played, in this case in 2021.
+When I have time I’m gonna add some notes at the end of the page for some games that I need to talk about, or some standalone blog posts.&lt;/p&gt;
 
-&lt;p&gt;Cosi ho pensato di provare a crearne un clone, solamente per uso privato.
-Ed eccolo qui, &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;Geo Locator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note : I'm only gonna write down singleplayer games.&lt;/code&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;cos-è&quot;&gt;Cos è?&lt;/h1&gt;
+&lt;h2 id=&quot;january&quot;&gt;January&lt;/h2&gt;
 
-&lt;p&gt;Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi.
-Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni.
-Alla fine dei round la persona con più punti vince.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Played some games on the Xbox Game Pass and finished Okami on PC.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;com-è-fatta&quot;&gt;Com è fatta?&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Call of the Sea&lt;/li&gt;
+  &lt;li&gt;Donut County&lt;/li&gt;
+  &lt;li&gt;The Medium&lt;/li&gt;
+  &lt;li&gt;Okami HD (100% Achievements)&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;L’ applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l’uso che ne faccio mi sembra a buon punto.
-Se volete darmi una mano allo sviluppo potete controllare la repository su &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;february&quot;&gt;February&lt;/h2&gt;
 
-&lt;p&gt;L’app è stata sviluppata con &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; per il front-end, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Hosting&lt;/code&gt; per l’hosting, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Real Time Database&lt;/code&gt; per la gestione dei match e delle lobby ed infine le API di &lt;code class=&quot;highlighter-rouge&quot;&gt;Google Maps&lt;/code&gt;.
-Inizialmente pensavo di usare &lt;a href=&quot;https://socket.io/&quot;&gt;socket.io&lt;/a&gt; per creare un server che gestiva il tutto, ma il database in tempo reale di Firebase é andato bene comunque.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This was the VR Month&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;alcune-immagini-della-ui&quot;&gt;Alcune immagini della UI&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Batman Arkham VR&lt;/li&gt;
+  &lt;li&gt;Beat Saber&lt;/li&gt;
+  &lt;li&gt;Boneworks&lt;/li&gt;
+  &lt;li&gt;Yakuza 0 (started it 2 years ago, finished now)&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div style=&quot;
-position: relative;
-margin:auto;
-  text-align: center;
-  color: white;
-  margin-bottom:25px;
-  margin-top:25px;
-  max-width:800px;&quot;&gt;
-&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true&quot; alt=&quot;picture of Game Interface&quot; /&gt;
-&lt;div class=&quot;image-text-caption&quot;&gt;
-  Game Interface
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;march&quot;&gt;March&lt;/h2&gt;
 
-&lt;div style=&quot;position: relative;
-  text-align: center;
-  margin:auto;
-  color: white;
-  margin-bottom:10px;
-  max-width:500px;&quot;&gt;
-&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true&quot; alt=&quot;picture of Lobby Menu&quot; /&gt;
-&lt;div class=&quot;image-text-caption&quot;&gt;
-  Lobby Menu
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;position: relative;
-  text-align: center;
-  margin:auto;
-  color: white;
-  margin-bottom:10px;
-  max-width:500px;&quot;&gt;
-&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true&quot; alt=&quot;picture of Game Recap Menu&quot; /&gt;
-&lt;div class=&quot;image-text-caption&quot;&gt;
-  Game Recap Menu
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Got Control from the Humble Bundle and It Takes Two from the EA Play&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;posso-usarla-con-i-miei-amici&quot;&gt;Posso usarla con i miei amici?&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Control Ultimate Edition (100% Achievements)&lt;/li&gt;
+  &lt;li&gt;It Takes Two&lt;/li&gt;
+  &lt;li&gt;Little Nightmares&lt;/li&gt;
+  &lt;li&gt;Half Life : Alyx (started)&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Certo, il setup non è semplice, ma neanche troppo complicato.
-Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database.
-Inoltre è necessario abilitare Le API di Google Maps nel progetto.&lt;/p&gt;
+&lt;h2 id=&quot;april&quot;&gt;April&lt;/h2&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ATTENZIONE : Le chiamate alle API di Google Maps non sono gratuite, ma Google mette a dispozione 200$ gratis al mese.E' importante quindi implementare delle quote e limitazioni a tale API per evitare usi impropri e fatture enormi.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The first 3 games I played on Stadia.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Cerca anche di limitare l’uso della API_KEY solo al sito di Firebase Hosting.
-Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e inserisci il tuo file .env nella directory principale.
-Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Little Nightmares 2&lt;/li&gt;
+  &lt;li&gt;Borderlands 3 (never finished, kinda repetitive)&lt;/li&gt;
+  &lt;li&gt;Gylt&lt;/li&gt;
+  &lt;li&gt;Half Life : Alyx (finished)&lt;/li&gt;
+  &lt;li&gt;Genesis Noir&lt;/li&gt;
+  &lt;li&gt;Life is Strange : Before the Storm&lt;/li&gt;
+  &lt;li&gt;Resident Evil 7&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Il file .env dovrebbe essere cosi :&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot;
-REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot;
-REACT_APP_BASEURL = &quot;YOUR-DATA&quot;
-REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot;
-REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot;
-REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot;
-REACT_APP_APP_ID = &quot;YOUR-DATA&quot;
-REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l’app è pubblicata.&lt;/p&gt;
-
-&lt;p&gt;Puoi anche aggiungere le tue Location al gioco andando su &lt;em&gt;src/providers/GameProvider.js&lt;/em&gt; e aggiungendo la Latitudine e Longitudine all’array LOCATIONS che c’è a fine file.&lt;/p&gt;
-
-&lt;h1 id=&quot;fine&quot;&gt;Fine&lt;/h1&gt;
-
-&lt;p&gt;Grazie per l’interesse, ci vediamo!&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Geo Locator Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a Geoguessr. Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento. Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l’abbonamento. Cosi ho pensato di provare a crearne un clone, solamente per uso privato. Ed eccolo qui, Geo Locator. Cos è? Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi. Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni. Alla fine dei round la persona con più punti vince. Com è fatta? L’ applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l’uso che ne faccio mi sembra a buon punto. Se volete darmi una mano allo sviluppo potete controllare la repository su GitHub. L’app è stata sviluppata con React per il front-end, Firebase Hosting per l’hosting, Firebase Real Time Database per la gestione dei match e delle lobby ed infine le API di Google Maps. Inizialmente pensavo di usare socket.io per creare un server che gestiva il tutto, ma il database in tempo reale di Firebase é andato bene comunque. Alcune immagini della UI Game Interface Lobby Menu Game Recap Menu Posso usarla con i miei amici? Certo, il setup non è semplice, ma neanche troppo complicato. Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database. Inoltre è necessario abilitare Le API di Google Maps nel progetto. ATTENZIONE : Le chiamate alle API di Google Maps non sono gratuite, ma Google mette a dispozione 200$ gratis al mese.E' importante quindi implementare delle quote e limitazioni a tale API per evitare usi impropri e fatture enormi. Cerca anche di limitare l’uso della API_KEY solo al sito di Firebase Hosting. Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e inserisci il tuo file .env nella directory principale. Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi. Il file .env dovrebbe essere cosi : REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot; REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot; REACT_APP_BASEURL = &quot;YOUR-DATA&quot; REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot; REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot; REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot; REACT_APP_APP_ID = &quot;YOUR-DATA&quot; REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot; Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l’app è pubblicata. Puoi anche aggiungere le tue Location al gioco andando su src/providers/GameProvider.js e aggiungendo la Latitudine e Longitudine all’array LOCATIONS che c’è a fine file. Fine Grazie per l’interesse, ci vediamo!</summary></entry><entry xml:lang="EN"><title type="html">Geo Locator, a Geoguessr clone</title><link href="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone" rel="alternate" type="text/html" title="Geo Locator, a Geoguessr clone" /><published>2021-01-11T15:00:00+01:00</published><updated>2021-01-11T15:00:00+01:00</updated><id>http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone</id><content type="html" xml:base="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone">&lt;h1 id=&quot;geo-locator&quot;&gt;Geo Locator&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Work in progress…&lt;/em&gt;&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Info Having all these platforms and launchers to play from, when the end of the year draws near I tend to forget which games I played, so I decided to use a blog post as a tracker for all the games that I played, in this case in 2021. When I have time I’m gonna add some notes at the end of the page for some games that I need to talk about, or some standalone blog posts. Note : I'm only gonna write down singleplayer games. January Played some games on the Xbox Game Pass and finished Okami on PC. Call of the Sea Donut County The Medium Okami HD (100% Achievements) February This was the VR Month Batman Arkham VR Beat Saber Boneworks Yakuza 0 (started it 2 years ago, finished now) March Got Control from the Humble Bundle and It Takes Two from the EA Play Control Ultimate Edition (100% Achievements) It Takes Two Little Nightmares Half Life : Alyx (started) April The first 3 games I played on Stadia. Little Nightmares 2 Borderlands 3 (never finished, kinda repetitive) Gylt Half Life : Alyx (finished) Genesis Noir Life is Strange : Before the Storm Resident Evil 7 Work in progress…</summary></entry><entry xml:lang="EN"><title type="html">Geo Locator, a Geoguessr clone</title><link href="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone" rel="alternate" type="text/html" title="Geo Locator, a Geoguessr clone" /><published>2021-01-11T15:00:00+01:00</published><updated>2021-01-11T15:00:00+01:00</updated><id>http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone</id><content type="html" xml:base="http://localhost:4000/posts/projects/Geo-Locator,-a-Geoguessr-clone">&lt;h1 id=&quot;geo-locator&quot;&gt;Geo Locator&lt;/h1&gt;
 
 &lt;div style=&quot;position: relative;
   text-align: center;
@@ -195,7 +151,105 @@ REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot;
 
 &lt;h1 id=&quot;end&quot;&gt;End&lt;/h1&gt;
 
-&lt;p&gt;Thanks for your interest, see you!&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Geo Locator In the last few days my friends and I wanted to play Geoguessr again. However, since the site has grown so much in recent years, the developers had to make a subscription for the service, to keep it up. Let’s be real, € 3 a month is not a lot, but since I’m only playing it a few times a week, I didn’t like the idea of paying for the subscription. So I thought I’d try to create a clone, just for private use. And here it is, Geo Locator. What is it? For those unfamiliar with it, Geoguessr is a multiplayer but also singleplayer game that throws you into a random place in the world and by using Google Street View you have to guess where you are. The closer your answer ( you set a marker on Google Maps ), the more points you earn. At the end of the rounds, the person with the most points wins. How was it made? The application is still a WIP, there are several things that can be improved ( especially considering that I’m still a beginner with React, I didn’t use any particular Hooks or advanced development methods ), such as the loading of the maps from the Google API Maps, improved performance ( sometimes WebGl crashes in my browser, I have yet to find out why ), but for the use I make of it, it’s ok. If you want to help me with the development you can check the repository on GitHub. The app was developed with React for the front-end, Firebase Hosting for hosting, Firebase Real Time Database for match and lobby management and finally the Google Maps API. Initially I was thinking of using socket.io to create a server to handle the game data, but Firebase’s realtime database worked fine. Some UI images Game Interface Lobby Menu Game Recap Menu Can I use it with my friends? Sure, the setup isn’t simple, but it’s not too complicated either. First you need to create a project on Firebase, enable Firebase Hosting and RealTime Database. You also need to enable Google Maps API in the project. ATTENTION: Calls to the Google Maps API are not free, but Google provides $ 200 for free per month, so it is important to implement quotas and limitations to this API to avoid misuses and huge bills. Also try to limit the use of the API_KEY to the Firebase Hosting site only. With these security issues fixed, just download Geo Locator from GitHub and place your .env file in the root directory. Real Time Database rules could also be improved, but if you’ve already added limits to your key, the defaults one are fine too. The .env file should look like this: REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot; REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot; REACT_APP_BASEURL = &quot;YOUR-DATA&quot; REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot; REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot; REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot; REACT_APP_APP_ID = &quot;YOUR-DATA&quot; REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot; Finally just build the project and deploy it on Firebase Hosting and voila, the app is published. You can also add your Locations to the game by going to src/providers/GameProvider.js and adding the Latitude and Longitude to the LOCATIONS array at the end of the file. End Thanks for your interest, see you!</summary></entry><entry xml:lang="IT"><title type="html">La Photo Mode di Death Stranding</title><link href="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding" rel="alternate" type="text/html" title="La Photo Mode di Death Stranding" /><published>2020-09-15T13:00:00+02:00</published><updated>2020-09-15T13:00:00+02:00</updated><id>http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding</id><content type="html" xml:base="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding">&lt;p&gt;Recentemente ho acquistato &lt;code class=&quot;highlighter-rouge&quot;&gt;Death Stranding&lt;/code&gt; su Steam, l’ultima fatica di &lt;code class=&quot;highlighter-rouge&quot;&gt;Hideo Kojima&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks for your interest, see you!&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Geo Locator In the last few days my friends and I wanted to play Geoguessr again. However, since the site has grown so much in recent years, the developers had to make a subscription for the service, to keep it up. Let’s be real, € 3 a month is not a lot, but since I’m only playing it a few times a week, I didn’t like the idea of paying for the subscription. So I thought I’d try to create a clone, just for private use. And here it is, Geo Locator. What is it? For those unfamiliar with it, Geoguessr is a multiplayer but also singleplayer game that throws you into a random place in the world and by using Google Street View you have to guess where you are. The closer your answer ( you set a marker on Google Maps ), the more points you earn. At the end of the rounds, the person with the most points wins. How was it made? The application is still a WIP, there are several things that can be improved ( especially considering that I’m still a beginner with React, I didn’t use any particular Hooks or advanced development methods ), such as the loading of the maps from the Google API Maps, improved performance ( sometimes WebGl crashes in my browser, I have yet to find out why ), but for the use I make of it, it’s ok. If you want to help me with the development you can check the repository on GitHub. The app was developed with React for the front-end, Firebase Hosting for hosting, Firebase Real Time Database for match and lobby management and finally the Google Maps API. Initially I was thinking of using socket.io to create a server to handle the game data, but Firebase’s realtime database worked fine. Some UI images Game Interface Lobby Menu Game Recap Menu Can I use it with my friends? Sure, the setup isn’t simple, but it’s not too complicated either. First you need to create a project on Firebase, enable Firebase Hosting and RealTime Database. You also need to enable Google Maps API in the project. ATTENTION: Calls to the Google Maps API are not free, but Google provides $ 200 for free per month, so it is important to implement quotas and limitations to this API to avoid misuses and huge bills. Also try to limit the use of the API_KEY to the Firebase Hosting site only. With these security issues fixed, just download Geo Locator from GitHub and place your .env file in the root directory. Real Time Database rules could also be improved, but if you’ve already added limits to your key, the defaults one are fine too. The .env file should look like this: REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot; REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot; REACT_APP_BASEURL = &quot;YOUR-DATA&quot; REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot; REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot; REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot; REACT_APP_APP_ID = &quot;YOUR-DATA&quot; REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot; Finally just build the project and deploy it on Firebase Hosting and voila, the app is published. You can also add your Locations to the game by going to src/providers/GameProvider.js and adding the Latitude and Longitude to the LOCATIONS array at the end of the file. End Thanks for your interest, see you!</summary></entry><entry xml:lang="IT"><title type="html">Geo Locator - un clone di Geoguessr</title><link href="http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr" rel="alternate" type="text/html" title="Geo Locator - un clone di Geoguessr" /><published>2021-01-11T15:00:00+01:00</published><updated>2021-01-11T15:00:00+01:00</updated><id>http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr</id><content type="html" xml:base="http://localhost:4000/posts/projects/Geo-Locator,-un-clone-di-Geoguessr">&lt;h1 id=&quot;geo-locator&quot;&gt;Geo Locator&lt;/h1&gt;
+
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;&quot;&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image1.jpg?raw=true&quot; alt=&quot;header picture of geo locator&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a &lt;a href=&quot;https://www.geoguessr.com/&quot;&gt;Geoguessr&lt;/a&gt;.
+Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento.
+Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l’abbonamento.&lt;/p&gt;
+
+&lt;p&gt;Cosi ho pensato di provare a crearne un clone, solamente per uso privato.
+Ed eccolo qui, &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;Geo Locator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;cos-è&quot;&gt;Cos è?&lt;/h1&gt;
+
+&lt;p&gt;Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi.
+Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni.
+Alla fine dei round la persona con più punti vince.&lt;/p&gt;
+
+&lt;h1 id=&quot;com-è-fatta&quot;&gt;Com è fatta?&lt;/h1&gt;
+
+&lt;p&gt;L’ applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l’uso che ne faccio mi sembra a buon punto.
+Se volete darmi una mano allo sviluppo potete controllare la repository su &lt;a href=&quot;https://github.com/RasterCrow/Geo-Locator&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;L’app è stata sviluppata con &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; per il front-end, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Hosting&lt;/code&gt; per l’hosting, &lt;code class=&quot;highlighter-rouge&quot;&gt;Firebase Real Time Database&lt;/code&gt; per la gestione dei match e delle lobby ed infine le API di &lt;code class=&quot;highlighter-rouge&quot;&gt;Google Maps&lt;/code&gt;.
+Inizialmente pensavo di usare &lt;a href=&quot;https://socket.io/&quot;&gt;socket.io&lt;/a&gt; per creare un server che gestiva il tutto, ma il database in tempo reale di Firebase é andato bene comunque.&lt;/p&gt;
+
+&lt;h1 id=&quot;alcune-immagini-della-ui&quot;&gt;Alcune immagini della UI&lt;/h1&gt;
+
+&lt;div style=&quot;
+position: relative;
+margin:auto;
+  text-align: center;
+  color: white;
+  margin-bottom:25px;
+  margin-top:25px;
+  max-width:800px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image3.jpg?raw=true&quot; alt=&quot;picture of Game Interface&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Game Interface
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image2.png?raw=true&quot; alt=&quot;picture of Lobby Menu&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Lobby Menu
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;position: relative;
+  text-align: center;
+  margin:auto;
+  color: white;
+  margin-bottom:10px;
+  max-width:500px;&quot;&gt;
+&lt;img class=&quot;blogImage&quot; src=&quot;https://github.com/RasterCrow/Geo-Locator/blob/master/GithubAssets/image4.png?raw=true&quot; alt=&quot;picture of Game Recap Menu&quot; /&gt;
+&lt;div class=&quot;image-text-caption&quot;&gt;
+  Game Recap Menu
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;posso-usarla-con-i-miei-amici&quot;&gt;Posso usarla con i miei amici?&lt;/h1&gt;
+
+&lt;p&gt;Certo, il setup non è semplice, ma neanche troppo complicato.
+Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database.
+Inoltre è necessario abilitare Le API di Google Maps nel progetto.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ATTENZIONE : Le chiamate alle API di Google Maps non sono gratuite, ma Google mette a dispozione 200$ gratis al mese.E' importante quindi implementare delle quote e limitazioni a tale API per evitare usi impropri e fatture enormi.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Cerca anche di limitare l’uso della API_KEY solo al sito di Firebase Hosting.
+Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e inserisci il tuo file .env nella directory principale.
+Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi.&lt;/p&gt;
+
+&lt;p&gt;Il file .env dovrebbe essere cosi :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot;
+REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot;
+REACT_APP_BASEURL = &quot;YOUR-DATA&quot;
+REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot;
+REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot;
+REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot;
+REACT_APP_APP_ID = &quot;YOUR-DATA&quot;
+REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l’app è pubblicata.&lt;/p&gt;
+
+&lt;p&gt;Puoi anche aggiungere le tue Location al gioco andando su &lt;em&gt;src/providers/GameProvider.js&lt;/em&gt; e aggiungendo la Latitudine e Longitudine all’array LOCATIONS che c’è a fine file.&lt;/p&gt;
+
+&lt;h1 id=&quot;fine&quot;&gt;Fine&lt;/h1&gt;
+
+&lt;p&gt;Grazie per l’interesse, ci vediamo!&lt;/p&gt;</content><author><name>Alex</name></author><summary type="html">Geo Locator Negli ultimi giorni era tornata voglia a me e dei miei amici di giocare a Geoguessr. Siccome però il sito è cresciuto tanto negli ultimi anni, gli svilupaptori hanno dovuto per forza rendere il servizio a pagamento. Ora, 3€ al mese non sono molti, ma giocandoci solamente qualche volta la sera in compagnia non mi sembrava il caso di pagare per l’abbonamento. Cosi ho pensato di provare a crearne un clone, solamente per uso privato. Ed eccolo qui, Geo Locator. Cos è? Per chi non lo conoscesse, Geoguessr é un gioco multiplayer ma anche singleplayer che ti butta in un posto casuale nel mondo e grazie alla modalità Street View di Google Maps devi riuscire a scoprire dove ti trovi. Più vicino è la tua risposta ( fornita con un marker su Google Maps ), più punti guadagni. Alla fine dei round la persona con più punti vince. Com è fatta? L’ applicazione è ancora un WIP, ci sono diverse cose migliorabili ( specie contando che essendo ancora alle prime armi con React, non ho fatto uso di Hook particolari o metodi avanzati di sviluppo ), come per esempio il caricamento delle mappe dalle API di Google Maps, miglioramento delle perfomance ( a volte WebGl crasha nel mio browser, devo ancora scoprire perchè ), ma per l’uso che ne faccio mi sembra a buon punto. Se volete darmi una mano allo sviluppo potete controllare la repository su GitHub. L’app è stata sviluppata con React per il front-end, Firebase Hosting per l’hosting, Firebase Real Time Database per la gestione dei match e delle lobby ed infine le API di Google Maps. Inizialmente pensavo di usare socket.io per creare un server che gestiva il tutto, ma il database in tempo reale di Firebase é andato bene comunque. Alcune immagini della UI Game Interface Lobby Menu Game Recap Menu Posso usarla con i miei amici? Certo, il setup non è semplice, ma neanche troppo complicato. Inanzitutto devi creare un progetto su Firebase, abilitare Firebase Hosting e RealTime Database. Inoltre è necessario abilitare Le API di Google Maps nel progetto. ATTENZIONE : Le chiamate alle API di Google Maps non sono gratuite, ma Google mette a dispozione 200$ gratis al mese.E' importante quindi implementare delle quote e limitazioni a tale API per evitare usi impropri e fatture enormi. Cerca anche di limitare l’uso della API_KEY solo al sito di Firebase Hosting. Risolto questi problemi di sicurezza, basta scaricare Geo Locator da GitHub e inserisci il tuo file .env nella directory principale. Si potrebbero anche migliorare le regole del Real Time Database, ma se hai gia aggiunto limiti alla tua chiave, va bene anche quelle basi. Il file .env dovrebbe essere cosi : REACT_APP_API_KEY = &quot;YOUR-API-KEY&quot; REACT_APP_AUTHDOMAIN = &quot;YOUR-DATA&quot; REACT_APP_BASEURL = &quot;YOUR-DATA&quot; REACT_APP_PROJECT_ID = &quot;YOUR-DATA&quot; REACT_APP_STORAGEBUCKET = &quot;YOUR-DATA&quot; REACT_APP_MESSAGING_SENDER_ID = &quot;YOUR-DATA&quot; REACT_APP_APP_ID = &quot;YOUR-DATA&quot; REACT_APP_MEASUREMENT_ID = &quot;YOUR-DATA&quot; Infine basta fare la build del progetto e il deploy su Firebase Hosting e voilà, l’app è pubblicata. Puoi anche aggiungere le tue Location al gioco andando su src/providers/GameProvider.js e aggiungendo la Latitudine e Longitudine all’array LOCATIONS che c’è a fine file. Fine Grazie per l’interesse, ci vediamo!</summary></entry><entry xml:lang="IT"><title type="html">La Photo Mode di Death Stranding</title><link href="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding" rel="alternate" type="text/html" title="La Photo Mode di Death Stranding" /><published>2020-09-15T13:00:00+02:00</published><updated>2020-09-15T13:00:00+02:00</updated><id>http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding</id><content type="html" xml:base="http://localhost:4000/posts/generale/la-photo-mode-di-death-stranding">&lt;p&gt;Recentemente ho acquistato &lt;code class=&quot;highlighter-rouge&quot;&gt;Death Stranding&lt;/code&gt; su Steam, l’ultima fatica di &lt;code class=&quot;highlighter-rouge&quot;&gt;Hideo Kojima&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Per chi non lo conoscesse Death Stranding è un videogioco molto particolare, valorizza molto il viaggio e l’esplorazione da parte del videogiocatore. E’ dunque logico che ci sia stato un lavoro enorme per cercare di rendere la mappa di gioco il più interessante da navigare e aesteticamente piacevole all’occhio.
 Ha sicuramente aiutato avere a disposizione il &lt;code class=&quot;highlighter-rouge&quot;&gt;Decima Engine&lt;/code&gt;, usato in precedenza con Horizon Zero Dawn, da poco uscito sullo &lt;a href=&quot;https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/&quot;&gt;Steam Store&lt;/a&gt;, che ha permesso ai ragazzi di Kojima Productions di spingere l’hardware della PS4 al massimo delle sue capacità con modelli ingame di altissima qualità e paesaggi che sembrano reali.&lt;/p&gt;
