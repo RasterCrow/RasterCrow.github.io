@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-long_title: "Crow's Nest - Alexandru Stefan Andries"
-small_title: "Crow's Nest"
+long_title: "Old Crow's Nest - Alexandru Stefan Andries"
+small_title: "Old Crow's Nest"
 email: "rastercrow@gmail.com"
-description: "Sito portfolio e blog di Alexandru Stefan Andries, conosciuto come RasterCrow sul web."
+description: "Vecchio sito portfolio e blog di Alexandru Stefan Andries, conosciuto come RasterCrow sul web."
 creator: "Alexandru Stefan Andries"
 baseurl: ""# the subpath of your site, e.g. /blog
-url: https://rastercrow.me # the base hostname & protocol for your site, e.g. http://example.com
+url: https://old.rastercrow.me # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rastercrow
 github_username:  rastercrow
 excerpt_separator: <!--intro-->

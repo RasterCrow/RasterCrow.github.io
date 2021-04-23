@@ -152,6 +152,13 @@ a:link {
   margin: auto;
   cursor: default;
 }
+#subtitle {
+  text-align: center;
+  color: rgb(230, 67, 67);
+  text-shadow: 2px 2px #242323;
+  margin: auto;
+  cursor: default;
+}
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
